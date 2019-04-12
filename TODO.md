@@ -1,0 +1,6 @@
+- [ ] Dedicated tool to print out slot values
+- [ ] Use dynamic entities
+- [ ] Fix three versus 3
+- [ ] Add synonyms to airtable
+- [ ] Add logo
+- [ ] Get recording of intro from max

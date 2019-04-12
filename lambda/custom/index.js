@@ -6,6 +6,7 @@
 // Display Interface for your skill should be enabled through the Amazon developer console
 // See this screenshot - https://alexa.design/enabledisplay
 
+const AirtableManager = require("./airtable").instance();
 const Alexa = require('ask-sdk-core');
 
 /* INTENT HANDLERS */
@@ -13,7 +14,9 @@ const LaunchRequestHandler = {
   canHandle(handlerInput) {
     return handlerInput.requestEnvelope.request.type === `LaunchRequest`;
   },
-  handle(handlerInput) {
+  async handle(handlerInput) {
+    await AirtableManager.loadQuestions();
+
     return handlerInput.responseBuilder
       .speak(welcomeMessage)
       .reprompt(helpMessage)
@@ -44,7 +47,9 @@ const QuizHandler = {
     const item = attributes.quizItem;
     const property = attributes.quizProperty;
 
-    if (supportsDisplay(handlerInput)) {
+    //if (supportsDisplay(handlerInput)) {
+    // Add back display support - via multiple choice?
+    if (false) {
       const title = `Question #${attributes.counter}`;
       const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(getQuestionWithoutOrdinal(property, item)).getTextContent();
       const backgroundImage = new Alexa.ImageHelper().addImageInstance(getBackgroundImage(attributes.quizItem.Abbreviation)).getImage();
@@ -73,58 +78,6 @@ const QuizHandler = {
   },
 };
 
-const DefinitionHandler = {
-  canHandle(handlerInput) {
-    console.log("Inside DefinitionHandler");
-    const attributes = handlerInput.attributesManager.getSessionAttributes();
-    const request = handlerInput.requestEnvelope.request;
-
-    return attributes.state !== states.QUIZ &&
-           request.type === 'IntentRequest' &&
-           request.intent.name === 'AnswerIntent';
-  },
-  handle(handlerInput) {
-    console.log("Inside DefinitionHandler - handle");
-    //GRABBING ALL SLOT VALUES AND RETURNING THE MATCHING DATA OBJECT.
-    const item = getItem(handlerInput.requestEnvelope.request.intent.slots);
-    const response = handlerInput.responseBuilder;
-
-    //IF THE DATA WAS FOUND
-    if (item && item[Object.getOwnPropertyNames(data[0])[0]] !== undefined) {
-      if (useCardsFlag) {
-        response.withStandardCard(
-          getCardTitle(item),
-          getTextDescription(item),
-          getSmallImage(item),
-          getLargeImage(item))
-      }
-
-      if(supportsDisplay(handlerInput)) {
-        const image = new Alexa.ImageHelper().addImageInstance(getLargeImage(item)).getImage();
-        const title = getCardTitle(item);
-        const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(getTextDescription(item, "<br/>")).getTextContent();
-        response.addRenderTemplateDirective({
-          type: 'BodyTemplate2',
-          backButton: 'visible',
-          image,
-          title,
-          textContent: primaryText,
-        });
-      }
-      return response.speak(getSpeechDescription(item))
-              .reprompt(repromptSpeech)
-              .getResponse();
-    }
-    //IF THE DATA WAS NOT FOUND
-    else
-    {
-      return response.speak(getBadAnswer(item))
-              .reprompt(getBadAnswer(item))
-              .getResponse();
-    }
-  }
-};
-
 const QuizAnswerHandler = {
   canHandle(handlerInput) {
     console.log("Inside QuizAnswerHandler");
@@ -144,7 +97,12 @@ const QuizAnswerHandler = {
     var repromptOutput = ``;
     const item = attributes.quizItem;
     const property = attributes.quizProperty;
-    const isCorrect = compareSlots(handlerInput.requestEnvelope.request.intent.slots, item[property]);
+    const userAnswer = handlerInput.requestEnvelope.request.intent.slots.QuizAnswer.value;
+    const correctAnswer = item.answer;
+    let isCorrect = false;
+    if (userAnswer.trim().toLowerCase() === correctAnswer.trim().toLowerCase()) {
+      isCorrect = true;
+    }
 
     if (isCorrect) {
       speakOutput = getSpeechCon(true);
@@ -163,9 +121,10 @@ const QuizAnswerHandler = {
       speakOutput += question;
       repromptOutput = question;
 
-      if (supportsDisplay(handlerInput)) {
+      //if (supportsDisplay(handlerInput)) {
+      if (false) {
         const title = `Question #${attributes.counter}`;
-        const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(getQuestionWithoutOrdinal(attributes.quizProperty, attributes.quizItem)).getTextContent();
+        const primaryText = new Alexa.RichTextContentHelper().withPrimaryText(getQuestion(attributes.quizProperty, attributes.quizItem)).getTextContent();
         const backgroundImage = new Alexa.ImageHelper().addImageInstance(getBackgroundImage(attributes.quizItem.Abbreviation)).getImage();
         const itemList = [];
         getAndShuffleMultipleChoiceAnswers(attributes.selectedItemIndex, attributes.quizItem, attributes.quizProperty).forEach((x, i) => {
@@ -280,9 +239,9 @@ const ErrorHandler = {
     return true;
   },
   handle(handlerInput, error) {
-    console.log("Inside ErrorHandler - handle");
+    //console.log("Inside ErrorHandler - handle");
     console.log(`Error handled: ${JSON.stringify(error)}`);
-    console.log(`Handler Input: ${JSON.stringify(handlerInput)}`);
+    //console.log(`Handler Input: ${JSON.stringify(handlerInput)}`);
 
     return handlerInput.responseBuilder
       .speak(helpMessage)
@@ -297,66 +256,14 @@ const imagePath = "https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/
 const backgroundImagePath = "https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/state_flag/{0}x{1}/{2}._TTH_.png"
 const speechConsCorrect = ['Booya', 'All righty', 'Bam', 'Bazinga', 'Bingo', 'Boom', 'Bravo', 'Cha Ching', 'Cheers', 'Dynomite', 'Hip hip hooray', 'Hurrah', 'Hurray', 'Huzzah', 'Oh dear.  Just kidding.  Hurray', 'Kaboom', 'Kaching', 'Oh snap', 'Phew','Righto', 'Way to go', 'Well done', 'Whee', 'Woo hoo', 'Yay', 'Wowza', 'Yowsa'];
 const speechConsWrong = ['Argh', 'Aw man', 'Blarg', 'Blast', 'Boo', 'Bummer', 'Darn', "D'oh", 'Dun dun dun', 'Eek', 'Honk', 'Le sigh', 'Mamma mia', 'Oh boy', 'Oh dear', 'Oof', 'Ouch', 'Ruh roh', 'Shucks', 'Uh oh', 'Wah wah', 'Whoops a daisy', 'Yikes'];
-const data = [
-  {StateName: 'Alabama', Abbreviation: 'AL', Capital: 'Montgomery', StatehoodYear: 1819, StatehoodOrder: 22},
-  {StateName: 'Alaska', Abbreviation: 'AK', Capital: 'Juneau', StatehoodYear: 1959, StatehoodOrder: 49},
-  {StateName: 'Arizona', Abbreviation: 'AZ', Capital: 'Phoenix', StatehoodYear: 1912, StatehoodOrder: 48},
-  {StateName: 'Arkansas', Abbreviation: 'AR', Capital: 'Little Rock', StatehoodYear: 1836, StatehoodOrder: 25},
-  {StateName: 'California', Abbreviation: 'CA', Capital: 'Sacramento', StatehoodYear: 1850, StatehoodOrder: 31},
-  {StateName: 'Colorado', Abbreviation: 'CO', Capital: 'Denver', StatehoodYear: 1876, StatehoodOrder: 38},
-  {StateName: 'Connecticut', Abbreviation: 'CT', Capital: 'Hartford', StatehoodYear: 1788, StatehoodOrder: 5},
-  {StateName: 'Delaware', Abbreviation: 'DE', Capital: 'Dover', StatehoodYear: 1787, StatehoodOrder: 1},
-  {StateName: 'Florida', Abbreviation: 'FL', Capital: 'Tallahassee', StatehoodYear: 1845, StatehoodOrder: 27},
-  {StateName: 'Georgia', Abbreviation: 'GA', Capital: 'Atlanta', StatehoodYear: 1788, StatehoodOrder: 4},
-  {StateName: 'Hawaii', Abbreviation: 'HI', Capital: 'Honolulu', StatehoodYear: 1959, StatehoodOrder: 50},
-  {StateName: 'Idaho', Abbreviation: 'ID', Capital: 'Boise', StatehoodYear: 1890, StatehoodOrder: 43},
-  {StateName: 'Illinois', Abbreviation: 'IL', Capital: 'Springfield', StatehoodYear: 1818, StatehoodOrder: 21},
-  {StateName: 'Indiana', Abbreviation: 'IN', Capital: 'Indianapolis', StatehoodYear: 1816, StatehoodOrder: 19},
-  {StateName: 'Iowa', Abbreviation: 'IA', Capital: 'Des Moines', StatehoodYear: 1846, StatehoodOrder: 29},
-  {StateName: 'Kansas', Abbreviation: 'KS', Capital: 'Topeka', StatehoodYear: 1861, StatehoodOrder: 34},
-  {StateName: 'Kentucky', Abbreviation: 'KY', Capital: 'Frankfort', StatehoodYear: 1792, StatehoodOrder: 15},
-  {StateName: 'Louisiana', Abbreviation: 'LA', Capital: 'Baton Rouge', StatehoodYear: 1812, StatehoodOrder: 18},
-  {StateName: 'Maine', Abbreviation: 'ME', Capital: 'Augusta', StatehoodYear: 1820, StatehoodOrder: 23},
-  {StateName: 'Maryland', Abbreviation: 'MD', Capital: 'Annapolis', StatehoodYear: 1788, StatehoodOrder: 7},
-  {StateName: 'Massachusetts', Abbreviation: 'MA', Capital: 'Boston', StatehoodYear: 1788, StatehoodOrder: 6},
-  {StateName: 'Michigan', Abbreviation: 'MI', Capital: 'Lansing', StatehoodYear: 1837, StatehoodOrder: 26},
-  {StateName: 'Minnesota', Abbreviation: 'MN', Capital: 'St. Paul', StatehoodYear: 1858, StatehoodOrder: 32},
-  {StateName: 'Mississippi', Abbreviation: 'MS', Capital: 'Jackson', StatehoodYear: 1817, StatehoodOrder: 20},
-  {StateName: 'Missouri', Abbreviation: 'MO', Capital: 'Jefferson City', StatehoodYear: 1821, StatehoodOrder: 24},
-  {StateName: 'Montana', Abbreviation: 'MT', Capital: 'Helena', StatehoodYear: 1889, StatehoodOrder: 41},
-  {StateName: 'Nebraska', Abbreviation: 'NE', Capital: 'Lincoln', StatehoodYear: 1867, StatehoodOrder: 37},
-  {StateName: 'Nevada', Abbreviation: 'NV', Capital: 'Carson City', StatehoodYear: 1864, StatehoodOrder: 36},
-  {StateName: 'New Hampshire', Abbreviation: 'NH', Capital: 'Concord', StatehoodYear: 1788, StatehoodOrder: 9},
-  {StateName: 'New Jersey', Abbreviation: 'NJ', Capital: 'Trenton', StatehoodYear: 1787, StatehoodOrder: 3},
-  {StateName: 'New Mexico', Abbreviation: 'NM', Capital: 'Santa Fe', StatehoodYear: 1912, StatehoodOrder: 47},
-  {StateName: 'New York', Abbreviation: 'NY', Capital: 'Albany', StatehoodYear: 1788, StatehoodOrder: 11},
-  {StateName: 'North Carolina', Abbreviation: 'NC', Capital: 'Raleigh', StatehoodYear: 1789, StatehoodOrder: 12},
-  {StateName: 'North Dakota', Abbreviation: 'ND', Capital: 'Bismarck', StatehoodYear: 1889, StatehoodOrder: 39},
-  {StateName: 'Ohio', Abbreviation: 'OH', Capital: 'Columbus', StatehoodYear: 1803, StatehoodOrder: 17},
-  {StateName: 'Oklahoma', Abbreviation: 'OK', Capital: 'Oklahoma City', StatehoodYear: 1907, StatehoodOrder: 46},
-  {StateName: 'Oregon', Abbreviation: 'OR', Capital: 'Salem', StatehoodYear: 1859, StatehoodOrder: 33},
-  {StateName: 'Pennsylvania', Abbreviation: 'PA', Capital: 'Harrisburg', StatehoodYear: 1787, StatehoodOrder: 2},
-  {StateName: 'Rhode Island', Abbreviation: 'RI', Capital: 'Providence', StatehoodYear: 1790, StatehoodOrder: 13},
-  {StateName: 'South Carolina', Abbreviation: 'SC', Capital: 'Columbia', StatehoodYear: 1788, StatehoodOrder: 8},
-  {StateName: 'South Dakota', Abbreviation: 'SD', Capital: 'Pierre', StatehoodYear: 1889, StatehoodOrder: 40},
-  {StateName: 'Tennessee', Abbreviation: 'TN', Capital: 'Nashville', StatehoodYear: 1796, StatehoodOrder: 16},
-  {StateName: 'Texas', Abbreviation: 'TX', Capital: 'Austin', StatehoodYear: 1845, StatehoodOrder: 28},
-  {StateName: 'Utah', Abbreviation: 'UT', Capital: 'Salt Lake City', StatehoodYear: 1896, StatehoodOrder: 45},
-  {StateName: 'Vermont', Abbreviation: 'VT', Capital: 'Montpelier', StatehoodYear: 1791, StatehoodOrder: 14},
-  {StateName: 'Virginia', Abbreviation: 'VA', Capital: 'Richmond', StatehoodYear: 1788, StatehoodOrder: 10},
-  {StateName: 'Washington', Abbreviation: 'WA', Capital: 'Olympia', StatehoodYear: 1889, StatehoodOrder: 42},
-  {StateName: 'West Virginia', Abbreviation: 'WV', Capital: 'Charleston', StatehoodYear: 1863, StatehoodOrder: 35},
-  {StateName: 'Wisconsin', Abbreviation: 'WI', Capital: 'Madison', StatehoodYear: 1848, StatehoodOrder: 30},
-  {StateName: 'Wyoming', Abbreviation: 'WY', Capital: 'Cheyenne', StatehoodYear: 1890, StatehoodOrder: 44},
-];
 
 const states = {
   START: `_START`,
   QUIZ: `_QUIZ`,
 };
 
-const welcomeMessage = `Welcome to the United States Quiz Game!  You can ask me about any of the fifty states and their capitals, or you can ask me to start a quiz.  What would you like to do?`;
-const startQuizMessage = `OK.  I will ask you 10 questions about the United States. `;
+const welcomeMessage = `Welcome to the Classic Movie Musts Quiz Game!  We will ask you questions about movies from the Classic Movie Musts podcast.`;
+const startQuizMessage = `OK.  I will ask you 10 questions about classic movies. `;
 const exitSkillMessage = `Thank you for playing the United States Quiz Game!  Let's play again soon!`;
 const repromptSpeech = `Which other state or capital would you like to know about?`;
 const helpMessage = `I know lots of things about the United States.  You can ask me about a state or a capital, and I'll tell you what I know.  You can also test your knowledge by asking me to start a quiz.  What would you like to do?`;
@@ -420,22 +327,17 @@ function formatCasing(key) {
 }
 
 function getQuestion(counter, property, item) {
-  return `Here is your ${counter}th question.  What is the ${formatCasing(property)} of ${item.StateName}?`;
+  return `Here is your ${counter}th question. ${item.question}`;
 }
 
 // getQuestionWithoutOrdinal returns the question without the ordinal and is
 // used for the echo show.
 function getQuestionWithoutOrdinal(property, item) {
-  return "What is the " + formatCasing(property).toLowerCase() + " of "  + item.StateName + "?";
+  return "What is the " + formatCasing(property).toLowerCase() + " of "  + item.question + "?";
 }
 
 function getAnswer(property, item) {
-  switch (property) {
-    case 'Abbreviation':
-      return `The ${formatCasing(property)} of ${item.StateName} is <say-as interpret-as='spell-out'>${item[property]}</say-as>. `;
-    default:
-      return `The ${formatCasing(property)} of ${item.StateName} is ${item[property]}. `;
-  }
+  return `The answer is ${item.answer} `;
 }
 
 function getRandom(min, max) {
@@ -445,8 +347,11 @@ function getRandom(min, max) {
 function askQuestion(handlerInput) {
   console.log("I am in askQuestion()");
   //GENERATING THE RANDOM QUESTION FROM DATA
-  const random = getRandom(0, data.length - 1);
-  const item = data[random];
+  let random = getRandom(0, AirtableManager.questionCount() - 1);
+  if (process.env.UNIT_TEST) {
+    random = 0;
+  }
+  const item = AirtableManager.question(random);
   const propertyArray = Object.getOwnPropertyNames(item);
   const property = propertyArray[getRandom(1, propertyArray.length - 1)];
 
@@ -576,7 +481,6 @@ exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
     QuizHandler,
-    DefinitionHandler,
     QuizAnswerHandler,
     RepeatHandler,
     HelpHandler,
