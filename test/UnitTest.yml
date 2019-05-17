@@ -1,9 +1,10 @@
 ---
 configuration:
   locales: en-US
+  dynamo: mock
 
 ---
 - test: First Test
 - LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
-- QuizIntent: Here is your 1th question. Who did Spike Lee originally ask to play Danny Aiello's part in the movie?
-- AnswerIntent QuizAnswer="Robert De Niro": Wrong
+#- QuizIntent: Here is your 1th question. Who did Spike Lee originally ask to play Danny Aiello's part in the movie?
+#- AnswerIntent QuizAnswer="Robert De Niro": Wrong

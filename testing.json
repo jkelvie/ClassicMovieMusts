@@ -1,10 +1,11 @@
 {
-    "handler": "lambda/custom/index.js",
-    "trace": true,
+    "handler": "lib/index.js",
+    "trace": false,
     "jest": {
-      "silent": true,
+      "collectCoverageFrom": ["lib/*.js"],
       "coveragePathIgnorePatterns": [
         "<rootDir>/data"
-      ]
+      ],
+      "silent": false
     }
   }

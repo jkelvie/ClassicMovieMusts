@@ -10,8 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "airtable": "^0.5.10",
-    "ask-sdk-core": "^2.0.0",
-    "ask-sdk-model": "^1.0.0",
+    "ask-sdk": "^2.5.2",
     "dotenv": "^7.0.0"
   }
 }

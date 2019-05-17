@@ -4,3 +4,8 @@
 - [ ] Add synonyms to airtable
 - [ ] Add logo
 - [ ] Get recording of intro from max
+- [ ] Add images optionally per question?
+- [ ] Add eslint
+
+- [ ] Add podcast
+- [ ] Add Max's voice
