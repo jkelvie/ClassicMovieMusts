@@ -1,11 +1,15 @@
-- [ ] Dedicated tool to print out slot values
-- [ ] Use dynamic entities
-- [ ] Fix three versus 3
-- [ ] Add synonyms to airtable
+# For Test
 - [ ] Add logo
-- [ ] Get recording of intro from max
-- [ ] Add images optionally per question?
 - [ ] Add eslint
+- [ ] Setup ask cli deployment
+- [ ] CI and codecov
 
+# For submission
+- [ ] Use dynamic entities
+- [ ] Add synonyms to airtable
+- [ ] Get recording of intro from max
+
+# For future
+- [ ] Add images optionally per question?
 - [ ] Add podcast
 - [ ] Add Max's voice

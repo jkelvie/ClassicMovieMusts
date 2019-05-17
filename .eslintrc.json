@@ -1,0 +1,48 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended"],
+    "globals": {},
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": ["sort-requires", "sort-class-members"],
+    "rules": {
+      "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
+      "comma-dangle": ["error", "always-multiline"],
+      "indent": ["error", 4],
+      "max-len": ["error", 200],
+      "no-console": ["off"],
+      "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+      "no-undef": ["error"],
+      "no-unused-vars": ["error", { "vars": "local" }],
+      "no-var": ["error"],
+      "prefer-arrow-callback": ["error"],
+      "prefer-const": ["error"],
+      "quotes": ["error", "double"],
+      "semi": ["error"],
+      "sort-class-members/sort-class-members": [
+        "error",
+        {
+          "order": [
+            "[static-properties]",
+            "[static-methods]",
+            "constructor",
+            "[properties]",
+            "[conventional-private-properties]",
+            "[methods]",
+            "[conventional-private-methods]"
+          ],
+          "accessorPairPositioning": "getThenSet"
+        }
+      ],
+      "sort-keys": ["error", "asc", { "caseSensitive": true, "natural": false }],
+      "sort-requires/sort-requires": ["error"]
+    }
+  }

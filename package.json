@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "coverage": "codecov",
+    "lint": "eslint lib/*.js",
+    "lint.fix": "eslint --fix lib/*.js",
+    "test": "bst test"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +15,12 @@
     "airtable": "^0.5.10",
     "ask-sdk": "^2.5.2",
     "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "bespoken-tools": "^2.3.14",
+    "codecov": "^3.5.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-sort-class-members": "^1.4.0",
+    "eslint-plugin-sort-requires": "^2.1.0"
   }
 }
