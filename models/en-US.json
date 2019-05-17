@@ -12,6 +12,10 @@
           "samples": []
         },
         {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
           "name": "AMAZON.PauseIntent",
           "samples": []
         },
@@ -21,6 +25,10 @@
         },
         {
           "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
           "samples": []
         },
         {
