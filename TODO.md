@@ -1,8 +1,9 @@
 # For Test
 - [ ] Add logo
-- [ ] Add eslint
-- [ ] Setup ask cli deployment
-- [ ] CI and codecov
+- [ ] Accidentally catching quiz intent with answers
+- [X] Setup ask cli deployment
+- [X] Add eslint
+- [X] CI and codecov
 
 # For submission
 - [ ] Use dynamic entities

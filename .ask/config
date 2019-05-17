@@ -1,9 +1,33 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.c6cab0ce-2eb1-4951-b90e-2e5c41782cce",
       "was_cloned": false,
-      "merge": {}
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "e45776d425e0e53f2da949bf023c00a5"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "d2373e32d626ada8f257f2cd789c1c64"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:048661040156:function:ClassicMovieMusts",
+            "awsRegion": "us-east-1",
+            "codeUri": "./",
+            "functionName": "ClassicMovieMusts",
+            "handler": "lib/index.handler",
+            "revisionId": "2736cd20-8b41-42f0-8639-f54b76a00327",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
     }
   }
 }

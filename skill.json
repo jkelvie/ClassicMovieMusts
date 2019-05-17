@@ -5,16 +5,15 @@
         "en-US": {
           "summary": "Test your knowledge of the US states and their capitals.",
           "examplePhrases": [
-            "Alexa, open States Quiz",
-            "Alexa, play States Quiz"
+            "Alexa, open classic movie musts",
+            "Alexa, play classic movie musts"
           ],
           "keywords": [
             "quiz",
-            "games",
-            "geography"
+            "movies"
           ],
-          "name": "States Quiz",
-          "description": "Test your knowledge of the US states and their capitals.\n\nStates Quiz provides a fun way to keep your U.S. geography skills sharp.\n\nTo start, just say \"Alexa, launch States Quiz\" or \"Alexa, open States Quiz\" to start the game\".\n\nAt anytime, you can stop the game by saying \"Alexa, stop\""
+          "name": "Classic Movie Musts",
+          "description": "Test your knowledge of classic movies.\n\nClassic Movie Musts asks you questions based on the Classic Movie Must podcast.\n\nTo start, just say \"Alexa, launch Classic Movie Musts\" or \"Alexa, open Classic Movie Musts\" to start the game\".\n\nAt anytime, you can stop the game by saying \"Alexa, stop\""
         }
       },
       "isAvailableWorldwide": true,
@@ -25,8 +24,8 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "sourceDir": "lambda/custom",
-          "uri": "ask-custom-StatesQuiz"
+          "sourceDir": "./",
+          "uri": "ClassicMovieMusts"
         }
       }
     },
