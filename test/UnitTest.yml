@@ -4,12 +4,23 @@ configuration:
   dynamo: mock
 
 ---
-- test: First Test
+- test: Complete Game Test
 - LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
-- QuizIntent: Who did Spike Lee originally ask to play Danny Aiello's part in the movie Do The Right Thing?
+- QuizIntent: Great - here is your first question. Who did Spike Lee originally ask to play Danny Aiello's part in the movie Do The Right Thing?
 - AnswerIntent QuizAnswer="Robert De Niro": Robert De Niro is correct. Your current score is 1 out of 1.  Do you want to answer another question?
 - AMAZON.YesIntent: What movie was The Killing an unofficial sequel too, with some of the same actors and similar characters?
 - AnswerIntent QuizAnswer="Concrete Jungle": Concrete Jungle is not correct. The correct answer is The Asphalt Jungle. Your current score is 1 out of 2.  Do you want to answer another question?
 - AMAZON.YesIntent: The Last Picture Show was based on a book by what author?
+- AMAZON.RepeatIntent: The Last Picture Show was based on a book by what author?
 - AnswerIntent QuizAnswer="Larry McMurtry": Larry McMurtry is correct. Your current score is 2 out of 3.  Do you want to answer another question
 - AMAZON.NoIntent: Your final score is 2 out of 3. Thank you for playing the Classic Movie Musts Quiz Game!  Let's play again soon!
+
+---
+- test: Help
+- LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
+- AMAZON.HelpIntent: Answer fun questions about
+
+---
+- test: Yes to start
+- LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
+- AMAZON.YesIntent: Great - here is your first question

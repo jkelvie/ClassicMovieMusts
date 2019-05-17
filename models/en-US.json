@@ -20,6 +20,10 @@
           "samples": []
         },
         {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
           "name": "AMAZON.StartOverIntent",
           "samples": []
         },
