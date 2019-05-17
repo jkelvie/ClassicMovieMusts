@@ -9,4 +9,3 @@ install:
 script:
   - npm test
   - npm run coverage
-© 2019 GitHub, Inc.
