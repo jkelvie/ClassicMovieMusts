@@ -17,16 +17,21 @@ configuration:
 
 ---
 - test: Help
-- LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
+- LaunchRequest
 - AMAZON.HelpIntent: Answer fun questions about
 
 ---
 - test: When QuizIntent is fired for an answer, it is handled correctly
-- LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
+- LaunchRequest
 - QuizIntent
 - QuizIntent: That is not correct
 
 ---
 - test: Yes to start
-- LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
+- LaunchRequest
 - AMAZON.YesIntent: Great - here is your first question
+
+---
+- test: Exit
+- LaunchRequest
+- AMAZON.StopIntent: Thank you for playing the Classic Movie Musts Quiz Game
