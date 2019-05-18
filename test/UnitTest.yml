@@ -21,6 +21,12 @@ configuration:
 - AMAZON.HelpIntent: Answer fun questions about
 
 ---
+- test: When QuizIntent is fired for an answer, it is handled correctly
+- LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
+- QuizIntent
+- QuizIntent: That is not correct
+
+---
 - test: Yes to start
 - LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
 - AMAZON.YesIntent: Great - here is your first question
