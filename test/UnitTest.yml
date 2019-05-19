@@ -42,7 +42,7 @@ configuration:
 - LaunchRequest
 - QuizIntent:
   - response.directives[0].types[0].name: QUIZ_ANSWER
-  - response.directives[0].types[0].values[0].id: Robert De Niro
+  - response.directives[0].types[0].values[0].id: RobertDeNiro
   - response.directives[0].types[0].values[0].name.value: Robert De Niro
   - response.directives[0].types[0].values[0].name.synonyms[0]: Bob De Niro
   - response.directives[0].types[0].values[0].name.synonyms[1]: Robert Deniro

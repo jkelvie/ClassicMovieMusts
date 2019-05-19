@@ -10,7 +10,10 @@
           ],
           "keywords": [
             "quiz",
-            "movies"
+            "movies",
+            "classic movies",
+            "trivia",
+            "classics"
           ],
           "name": "Classic Movie Musts",
           "description": "Test your knowledge of classic movies.\n\nClassic Movie Musts asks you questions based on the Classic Movie Must podcast.\n\nTo start, just say \"Alexa, launch Classic Movie Musts\" or \"Alexa, open Classic Movie Musts\" to start the game\".\n\nAt anytime, you can stop the game by saying \"Alexa, stop\""

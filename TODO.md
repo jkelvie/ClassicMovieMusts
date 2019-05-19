@@ -5,6 +5,9 @@
 - [X] Add eslint
 - [X] CI and codecov
 - [ ] Move speechcons
+- [ ] Update skill.json with correct values
+- [ ] Test all questions are answered
+- [ ] On deploy, update Lambda env key
 
 # For submission
 - [ ] Use dynamic entities

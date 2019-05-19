@@ -10,7 +10,7 @@
         },
         "interactionModel": {
           "en-US": {
-            "eTag": "d2373e32d626ada8f257f2cd789c1c64"
+            "eTag": "c38ee8847427ae84e57e22cb307c6812"
           }
         },
         "lambda": [
@@ -23,7 +23,7 @@
             "codeUri": "./",
             "functionName": "ClassicMovieMusts",
             "handler": "lib/index.handler",
-            "revisionId": "2736cd20-8b41-42f0-8639-f54b76a00327",
+            "revisionId": "9a11bf97-411d-4bf5-aad4-42eb74a29f06",
             "runtime": "nodejs8.10"
           }
         ]
