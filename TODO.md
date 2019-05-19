@@ -1,17 +1,16 @@
 # For Test
-- [ ] Add logo
-- [ ] Accidentally catching quiz intent with answers
+- [X] Test what happens when all questions are answered
+- [X] Add logo
+- [X] Accidentally catching quiz intent with answers
 - [X] Setup ask cli deployment
 - [X] Add eslint
 - [X] CI and codecov
-- [ ] Move speechcons
-- [ ] Update skill.json with correct values
-- [ ] Test all questions are answered
-- [ ] On deploy, update Lambda env key
+- [X] Move speechcons
+- [X] Update skill.json with correct values
 
 # For submission
-- [ ] Use dynamic entities
-- [ ] Add synonyms to airtable
+- [X] Use dynamic entities
+- [X] Add synonyms to airtable
 - [ ] Get recording of intro from max
 - [ ] Add dashbot
 
