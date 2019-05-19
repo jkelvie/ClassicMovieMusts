@@ -4,6 +4,7 @@
 - [X] Setup ask cli deployment
 - [X] Add eslint
 - [X] CI and codecov
+- [ ] Move speechcons
 
 # For submission
 - [ ] Use dynamic entities
