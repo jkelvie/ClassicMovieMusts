@@ -9,6 +9,7 @@
 - [ ] Use dynamic entities
 - [ ] Add synonyms to airtable
 - [ ] Get recording of intro from max
+- [ ] Add dashbot
 
 # For future
 - [ ] Add images optionally per question?
