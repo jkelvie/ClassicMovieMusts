@@ -51,6 +51,18 @@
           ]
         },
         {
+          "name": "PlayIntent",
+          "samples": [
+            "play {MovieName}",
+            "listen to {MovieName}"
+          ],
+          "slots": [{
+            "name": "MovieName",
+            "type": "MOVIE_NAME",
+            "samples": []
+          }]
+        },
+        {
           "name": "QuizIntent",
           "samples": [
             "start a quiz",
@@ -66,63 +78,11 @@
       "types": [
         {
           "name": "QUIZ_ANSWER",
-          "values": [
-            {
-              "name": {
-                "value": "Robert De Niro"
-              }
-            },
-            {
-              "name": {
-                "value": "Asphalt Jungle"
-              }
-            },
-            {
-              "name": {
-                "value": "Larry McMurtry"
-              }
-            },
-            {
-              "name": {
-                "value": "Three"
-              }
-            },
-            {
-              "name": {
-                "value": "Duke Ellington"
-              }
-            },
-            {
-              "name": {
-                "value": "Robert Redford"
-              }
-            },
-            {
-              "name": {
-                "value": "Sixty"
-              }
-            },
-            {
-              "name": {
-                "value": "Nine"
-              }
-            },
-            {
-              "name": {
-                "value": "David O Selznick"
-              }
-            },
-            {
-              "name": {
-                "value": "John Williams"
-              }
-            },
-            {
-              "name": {
-                "value": "Night of the hunter"
-              }
-            }
-          ]
+          "values": []
+        },
+        {
+          "name": "MOVIE_NAME",
+          "values": []
         }
       ]
     }

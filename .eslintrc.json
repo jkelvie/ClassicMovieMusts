@@ -1,6 +1,7 @@
 {
     "env": {
         "es6": true,
+        "jest/globals": true,
         "node": true
     },
     "extends": ["eslint:recommended"],
@@ -12,7 +13,7 @@
         "jsx": true
       }
     },
-    "plugins": ["sort-requires", "sort-class-members"],
+    "plugins": ["jest","sort-requires", "sort-class-members"],
     "rules": {
       "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
       "comma-dangle": ["error", "always-multiline"],

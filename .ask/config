@@ -23,7 +23,7 @@
             "codeUri": "./",
             "functionName": "ClassicMovieMusts",
             "handler": "lib/index.handler",
-            "revisionId": "36107a2a-b431-4600-8489-db82bf79b974",
+            "revisionId": "27d8106b-d350-45e5-8641-16f6b353eb59",
             "runtime": "nodejs8.10"
           }
         ]
