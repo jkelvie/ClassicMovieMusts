@@ -14,8 +14,15 @@
 - [ ] Get recording of intro from max
 - [ ] Add dashbot
 
-# For future
-- [ ] Add images optionally per question?
+# For audioplayer
 - [ ] Add podcast
 - [ ] Add play intent
+- [ ] Add pause and resume intents for audioplayer
+- [ ] Update playback metadata
+- [ ] Put active podcast in session
+- [ ] Create generic play/resume function
+
+# For future
+- [ ] Add images optionally per question?
 - [ ] Add Max's voice
+
