@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "classic movie musts",
+      "invocationName": "INVOCATION_NAME",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -78,11 +78,23 @@
       "types": [
         {
           "name": "QUIZ_ANSWER",
-          "values": []
+          "values": [
+            {
+              "name": {
+                "value": "Sample Value"
+              }
+            }
+          ]
         },
         {
           "name": "MOVIE_NAME",
-          "values": []
+          "values": [
+            {
+              "name": {
+                "value": "Sample value"
+              }
+            }
+          ]
         }
       ]
     }
