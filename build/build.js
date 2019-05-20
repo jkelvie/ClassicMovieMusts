@@ -30,5 +30,11 @@ shelljs.sed("-i", "SKILL_NAME", process.env.SKILL_NAME, "target/skill.json");
 shelljs.cp("../package.json", "target/");
 shelljs.cp("-r", "../lib", "target/");
 shelljs.cp("-r", "../hooks", "target/"); // If we don't copy the hooks, they will be created anew
-shelljs.exec("cd target && npm install --only=prod");
+
+// Install the dependencies
+shelljs.pushd("target");
+shelljs.exec("npm install --only=prod");
+
+// Run the deployment
+shelljs.exec("ask deploy -t lambda --force");
 
