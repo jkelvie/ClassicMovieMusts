@@ -16,11 +16,14 @@
 
 # For audioplayer
 - [X] Add podcast
-- [ ] Add play intent
-- [ ] Add pause and resume intents for audioplayer
-- [ ] Update playback metadata
-- [ ] Put active podcast in session
-- [ ] Create generic play/resume function
+- [X] Add play intent
+- [X] Add pause and resume intents for audioplayer
+- [X] Update playback metadata
+- [X] Put active podcast in session
+- [X] Create generic play/resume function
+- [ ] Add query about what movie do you want?
+- [ ] Add play latest episode
+- [ ] Add question to playback related episode
 
 # For future
 - [ ] Add images optionally per question?

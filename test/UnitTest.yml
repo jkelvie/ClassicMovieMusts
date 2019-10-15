@@ -18,6 +18,11 @@ configuration:
   - response.directives[0].type: AudioPlayer.Stop
 - AMAZON.ResumeIntent:
   - response.directives[0].type: AudioPlayer.Play
+
+---
+- test: play a podcast that does not exist
+- PlayIntent MovieName="Look Who's Talking":
+  - response.outputSpeech.ssml: "Could not find a podcast for the movie: Look Who's Talking"
   
 ---
 - test: Complete Game Test
