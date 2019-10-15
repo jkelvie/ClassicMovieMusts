@@ -4,7 +4,7 @@ configuration:
   dynamo: mock
 
 ---
-- test: play a podcast
+- test: play a podcast by name
 - PlayIntent MovieName="Rear Window":
   - request.request.intent.slots.MovieName.resolutions.resolutionsPerAuthority[0].authority: "Authority"
   - request.request.intent.slots.MovieName.resolutions.resolutionsPerAuthority[0].status.code: "ER_SUCCESS_MATCH"
@@ -16,8 +16,32 @@ configuration:
   - response.directives[0].audioItem.stream.token: 28
 - AMAZON.PauseIntent:
   - response.directives[0].type: AudioPlayer.Stop
+- AudioPlayer.PlaybackStopped:
+  - request.request.offsetInMilliseconds: 30
 - AMAZON.ResumeIntent:
   - response.directives[0].type: AudioPlayer.Play
+  - response.directives[0].audioItem.stream.offsetInMilliseconds: 30
+
+---
+- test: play the latest podcast
+- PlayLatestIntent:
+  - response.directives[0].type: AudioPlayer.Play
+  - response.directives[0].playBehavior: REPLACE_ALL
+  - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
+  - response.directives[0].audioItem.stream.token: 85
+- AMAZON.StartOverIntent:
+  - response.directives[0].type: AudioPlayer.Play
+  - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
+
+---
+- test: cancel the playing podcast
+- PlayLatestIntent:
+  - response.directives[0].type: AudioPlayer.Play
+  - response.directives[0].playBehavior: REPLACE_ALL
+  - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
+  - response.directives[0].audioItem.stream.token: 85
+- AMAZON.CancelIntent:
+  - response.directives[0].type: AudioPlayer.Stop
 
 ---
 - test: play a podcast that does not exist
@@ -25,8 +49,13 @@ configuration:
   - response.outputSpeech.ssml: "Could not find a podcast for the movie: Look Who's Talking"
   
 ---
+- test: unsupported intents
+- AMAZON.ShuffleOnIntent: Sorry, the shuffle feature is not supported at this time
+- AMAZON.LoopOnIntent: Sorry, the loop feature is not supported at this time
+
+---
 - test: Complete Game Test
-- LaunchRequest: Welcome to the Classic Movie Musts Quiz Game
+- LaunchRequest: Welcome to Classic Movie Musts
 - QuizIntent: Great - here is your first question. Who did Spike Lee originally ask to play Danny Aiello's part in the movie Do The Right Thing?
 - AnswerIntent QuizAnswer="Robert De Niro": Robert De Niro is correct. Your current score is 1 out of 1. Do you want to answer another question?
 - AMAZON.YesIntent: What movie was The Killing an unofficial sequel too, with some of the same actors and similar characters?
@@ -49,7 +78,7 @@ configuration:
 ---
 - test: Help
 - LaunchRequest
-- AMAZON.HelpIntent: Answer fun questions about
+- AMAZON.HelpIntent: Say play trivia, play latest, or play with a movie name
 
 ---
 - test: When QuizIntent is fired for an answer, it is handled correctly

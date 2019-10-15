@@ -21,8 +21,9 @@
 - [X] Update playback metadata
 - [X] Put active podcast in session
 - [X] Create generic play/resume function
-- [ ] Add query about what movie do you want?
-- [ ] Add play latest episode
+- [X] Add missing intents
+- [X] Add query about what movie do you want at the start?
+- [X] Add play latest episode
 - [ ] Add question to playback related episode
 
 # For future

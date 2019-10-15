@@ -67,6 +67,16 @@
           }]
         },
         {
+          "name": "PlayLatestIntent",
+          "samples": [
+            "play latest",
+            "play most recent",
+            "play the most recent episode",
+            "play the latest episode",
+            "play the new podcast"
+          ]
+        },
+        {
           "name": "QuizIntent",
           "samples": [
             "start a quiz",
@@ -74,7 +84,8 @@
             "and start a quiz",
             "and quiz me",
             "for a quiz",
-            "a quiz"
+            "a quiz",
+            "play trivia"
           ],
           "slots": []
         }
