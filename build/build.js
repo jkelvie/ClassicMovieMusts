@@ -1,4 +1,9 @@
-require("dotenv").config({ path: "dev.env" });
+if (process.argv.length < 3) {
+    console.log("Must provide the environment name - dev or prod");
+}
+console.log(`Using environment: ${process.argv[2]}`);
+
+require("dotenv").config({ path: `${process.argv[2]}.env` });
 const shelljs = require("shelljs");
 
 if (process.env.CLEAN) {
@@ -36,5 +41,5 @@ shelljs.pushd("target");
 shelljs.exec("npm install --only=prod");
 
 // Run the deployment
-shelljs.exec("ask deploy -t lambda --force");
+shelljs.exec("ask deploy --force");
 

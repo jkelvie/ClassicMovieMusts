@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "coverage": "codecov",
-    "deploy": "cd build && node build.js",
+    "deploy.dev": "cd build && node build.js dev",
+    "deploy.prod": "cd build && node build.js prod",
     "jest": "jest",
     "lint": "eslint lib/*.js",
     "lint.fix": "eslint --fix lib/*.js",
