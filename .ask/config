@@ -1,7 +1,7 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "amzn1.ask.skill.c6cab0ce-2eb1-4951-b90e-2e5c41782cce",
+      "skill_id": "SKILL_ID",
       "was_cloned": false,
       "merge": {},
       "resources": {
@@ -18,12 +18,12 @@
             "alexaUsage": [
               "custom/default"
             ],
-            "arn": "arn:aws:lambda:us-east-1:048661040156:function:ClassicMovieMusts",
+            "arn": "LAMBDA_ARN",
             "awsRegion": "us-east-1",
             "codeUri": "./",
-            "functionName": "ClassicMovieMusts",
+            "functionName": "FUNCTION_NAME",
             "handler": "lib/index.handler",
-            "revisionId": "36107a2a-b431-4600-8489-db82bf79b974",
+            "revisionId": "27d8106b-d350-45e5-8641-16f6b353eb59",
             "runtime": "nodejs8.10"
           }
         ]

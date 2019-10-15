@@ -14,7 +14,19 @@
 - [ ] Get recording of intro from max
 - [ ] Add dashbot
 
+# For audioplayer
+- [X] Add podcast
+- [X] Add play intent
+- [X] Add pause and resume intents for audioplayer
+- [X] Update playback metadata
+- [X] Put active podcast in session
+- [X] Create generic play/resume function
+- [X] Add missing intents
+- [X] Add query about what movie do you want at the start?
+- [X] Add play latest episode
+- [ ] Add question to playback related episode
+
 # For future
 - [ ] Add images optionally per question?
-- [ ] Add podcast
 - [ ] Add Max's voice
+

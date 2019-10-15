@@ -1,0 +1,1845 @@
+{
+  "rss": {
+    "@_version": "2.0",
+    "@_xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+    "@_xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+    "@_xmlns:dc": "http://purl.org/dc/elements/1.1/",
+    "@_xmlns:atom": "http://www.w3.org/2005/Atom",
+    "@_xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+    "@_xmlns:spotify": "http://www.spotify.com/ns/rss",
+    "channel": {
+      "title": "Classic Movie Musts",
+      "atom:link": {
+        "@_href": "https://www.classicmoviemusts.com/feed.xml",
+        "@_rel": "self",
+        "@_type": "application/rss+xml"
+      },
+      "link": "https://classicmoviemusts.podbean.com",
+      "description": "A weekly podcast featuring a different movie must every episode.  We explore what makes these movies classics.",
+      "pubDate": "Fri, 17 May 2019 07:00:00 -0700",
+      "generator": "https://podbean.com/?v=5.5",
+      "language": "en",
+      "spotify:countryOfOrigin": "au ca gb us",
+      "copyright": "Copyright 2018. All rights reserved.",
+      "category": "TV &amp; Film",
+      "ttl": 1440,
+      "itunes:type": "episodic",
+      "itunes:subtitle": "This podcast is a fun and helpful companion guide to classic movies.",
+      "itunes:summary": "Classic Movie Musts is a weekly movie podcast that aims to provide artistic and historical context to classic films.  Classic Movie Musts is hosted by Max Baril.  New episodes release every Friday.\r\n\r\nFollow @moviemustspod / @maxbarilpods\r\nwww.classicmoviemusts.com / www.patreon.com/classicmoviemusts",
+      "itunes:author": "Classic Movie Musts",
+      "itunes:category": {
+        "@_text": "TV &amp; Film"
+      },
+      "itunes:owner": {
+        "itunes:name": "Classic Movie Musts",
+        "itunes:email": "mkbaril@gmail.com"
+      },
+      "itunes:block": "No",
+      "itunes:explicit": "No",
+      "itunes:new-feed-url": "",
+      "itunes:image": {
+        "@_href": "https://pbcdn1.podbean.com/imglogo/image-logo/2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+      },
+      "image": {
+        "url": "https://pbcdn1.podbean.com/imglogo/image-logo/2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg",
+        "title": "Classic Movie Musts",
+        "link": "https://classicmoviemusts.podbean.com",
+        "width": 144,
+        "height": 144
+      },
+      "item": [
+        {
+          "title": "Chinatown (1974) Ep. 63 w/ special guest Ted Walch",
+          "link": "https://www.classicmoviemusts.com/e/chinatown-1974-ep-63-w-special-guest-ted-walch/",
+          "comments": "https://www.classicmoviemusts.com/e/chinatown-1974-ep-63-w-special-guest-ted-walch/#comments",
+          "pubDate": "Fri, 17 May 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/chinatown-1974-ep-63-w-special-guest-ted-walch-74d9d31072ce5ae99e53cde372498c4c",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we're joined again by Ted Walch to discuss Roman Polanski's neo-noir mystery, Chinatown (1974), starring Jack Nicholson, Faye Dunaway, and John Huston.</p>\n<p>Chinatown is currently #21 on AFI's 100 Greatest Movies of All Time.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:36</p>\n<p>Feature Presentation: 6:53</p>\n<p>End Credits: 54:34</p>",
+          "content:encoded": "<p>In this episode we're joined again by Ted Walch to discuss Roman Polanski's neo-noir mystery, Chinatown (1974), starring Jack Nicholson, Faye Dunaway, and John Huston.</p>\n<p>Chinatown is currently #21 on AFI's 100 Greatest Movies of All Time.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:36</p>\n<p>Feature Presentation: 6:53</p>\n<p>End Credits: 54:34</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/88ex2j/Chinatown_1974_Ep_63.mp3",
+            "@_length": "69933086",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we're joined again by Ted Walch to discuss Roman Polanski's neo-noir mystery, Chinatown (1974), starring Jack Nicholson, Faye Dunaway, and John Huston.\nChinatown is currently #21 on AFI's 100 Greatest Movies of All Time.\nTimestamps:\nOpeni...",
+          "itunes:summary": "In this episode we're joined again by Ted Walch to discuss Roman Polanski's neo-noir mystery, Chinatown (1974), starring Jack Nicholson, Faye Dunaway, and John Huston.\nChinatown is currently #21 on AFI's 100 Greatest Movies of All Time.\nTimestamps:\nOpening Credits: 1:36\nFeature Presentation: 6:53\nEnd Credits: 54:34",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "55:20",
+          "itunes:episode": 63,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "12 Angry Men (1957) Ep. 62 w/ special guest Aaron Tracy",
+          "link": "https://www.classicmoviemusts.com/e/12-angry-men-1957-ep-62-w-special-guest-aaron-tracy/",
+          "comments": "https://www.classicmoviemusts.com/e/12-angry-men-1957-ep-62-w-special-guest-aaron-tracy/#comments",
+          "pubDate": "Fri, 10 May 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/12-angry-men-1957-ep-62-w-special-guest-aaron-tracy-72015b0cbabe8f4339c300c2ce315e58",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we welcome screenwriter, professor, and podcaster Aaron Tracy to the show to discuss Sidney Lumet's 12 Angry Men (1957), starring Henry Fonda and Lee J. Cobb.</p>\n<p>Check out Aaron's podcast: To Live and Dialogue in LA.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:38</p>\n<p>Feature Presentation: 8:30</p>\n<p>Ending Credits:1:01:28</p>",
+          "content:encoded": "<p>In this episode we welcome screenwriter, professor, and podcaster Aaron Tracy to the show to discuss Sidney Lumet's 12 Angry Men (1957), starring Henry Fonda and Lee J. Cobb.</p>\n<p>Check out Aaron's podcast: To Live and Dialogue in LA.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:38</p>\n<p>Feature Presentation: 8:30</p>\n<p>Ending Credits:1:01:28</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/nkwnqk/12_Angry_Men_1957_Ep_62.mp3",
+            "@_length": "73828075",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we welcome screenwriter, professor, and podcaster Aaron Tracy to the show to discuss Sidney Lumet's 12 Angry Men (1957), starring Henry Fonda and Lee J. Cobb.\nCheck out Aaron's podcast: To Live and Dialogue in LA.\nTimestamps:\nOpening Cred...",
+          "itunes:summary": "In this episode we welcome screenwriter, professor, and podcaster Aaron Tracy to the show to discuss Sidney Lumet's 12 Angry Men (1957), starring Henry Fonda and Lee J. Cobb.\nCheck out Aaron's podcast: To Live and Dialogue in LA.\nTimestamps:\nOpening Credits: 1:38\nFeature Presentation: 8:30\nEnding Credits:1:01:28",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "01:02:14",
+          "itunes:episode": 62,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Meet John Doe (1941) Ep. 61 w/ special guest Victoria Riskin",
+          "link": "https://www.classicmoviemusts.com/e/meet-john-doe-1941-ep-61-w-special-guest-victoria-riskin/",
+          "comments": "https://www.classicmoviemusts.com/e/meet-john-doe-1941-ep-61-w-special-guest-victoria-riskin/#comments",
+          "pubDate": "Fri, 03 May 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/meet-john-doe-1941-ep-61-w-special-guest-victoria-riskin-5ef419955b8a5e863f844cf10d97bced",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we're joined by Victoria Riskin, daughter of Fay Wray and Robert Riskin, and author of a new book titled after her parents.  Max and Victoria discuss one of her father's most inspiring and cautionary films, Meet John Doe (1941), starring Gary Cooper and Barbara Stanwyck.</p>\n<p>Buy Victoria Riskin's book here: <a href=\"https://www.amazon.com/Fay-Wray-Robert-Riskin-Hollywood/dp/1524747289\">https://www.amazon.com/Fay-Wray-Robert-Riskin-Hollywood/dp/1524747289</a></p>\n<p>Or at any fine bookseller!</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:43</p>\n<p>Feature Presentation: 5:56</p>\n<p>End Credits: 47:50</p>",
+          "content:encoded": "<p>In this episode we're joined by Victoria Riskin, daughter of Fay Wray and Robert Riskin, and author of a new book titled after her parents.  Max and Victoria discuss one of her father's most inspiring and cautionary films, Meet John Doe (1941), starring Gary Cooper and Barbara Stanwyck.</p>\n<p>Buy Victoria Riskin's book here: <a href=\"https://www.amazon.com/Fay-Wray-Robert-Riskin-Hollywood/dp/1524747289\">https://www.amazon.com/Fay-Wray-Robert-Riskin-Hollywood/dp/1524747289</a></p>\n<p>Or at any fine bookseller!</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:43</p>\n<p>Feature Presentation: 5:56</p>\n<p>End Credits: 47:50</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/7c8vfn/Meet_John_Doe_1941_Ep_61.mp3",
+            "@_length": "63457392",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we're joined by Victoria Riskin, daughter of Fay Wray and Robert Riskin, and author of a new book titled after her parents.  Max and Victoria discuss one of her father's most inspiring and cautionary films, Meet John Doe (1941), starring ...",
+          "itunes:summary": "In this episode we're joined by Victoria Riskin, daughter of Fay Wray and Robert Riskin, and author of a new book titled after her parents.  Max and Victoria discuss one of her father's most inspiring and cautionary films, Meet John Doe (1941), starring Gary Cooper and Barbara Stanwyck.\nBuy Victoria Riskin's book here: https://www.amazon.com/Fay-Wray-Robert-Riskin-Hollywood/dp/1524747289\nOr at any fine bookseller!\nTimestamps:\nOpening Credits: 1:43\nFeature Presentation: 5:56\nEnd Credits: 47:50",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "48:46",
+          "itunes:episode": 61,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Nashville (1975) Ep. 60",
+          "link": "https://www.classicmoviemusts.com/e/nashville-1975-ep-60/",
+          "comments": "https://www.classicmoviemusts.com/e/nashville-1975-ep-60/#comments",
+          "pubDate": "Fri, 26 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/nashville-1975-ep-60-f5d5c94cbff170224c18b6156836e7e1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss, as picked by our Patreon community, Robert Altman's sprawling character drama, Nashville (1975). Starring Henry Gibson, Ronee Blakely, Shelley Duvall, Keith Carradine, Lily Tomlin and many more.</p>\n<p>Nashville is currently #59 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode we discuss, as picked by our Patreon community, Robert Altman's sprawling character drama, Nashville (1975). Starring Henry Gibson, Ronee Blakely, Shelley Duvall, Keith Carradine, Lily Tomlin and many more.</p>\n<p>Nashville is currently #59 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/74az6v/Nashville_1975_Ep_60.mp3",
+            "@_length": "32446907",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss, as picked by our Patreon community, Robert Altman's sprawling character drama, Nashville (1975). Starring Henry Gibson, Ronee Blakely, Shelley Duvall, Keith Carradine, Lily Tomlin and many more.\nNashville is currently #59 on A...",
+          "itunes:summary": "In this episode we discuss, as picked by our Patreon community, Robert Altman's sprawling character drama, Nashville (1975). Starring Henry Gibson, Ronee Blakely, Shelley Duvall, Keith Carradine, Lily Tomlin and many more.\nNashville is currently #59 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "25:16",
+          "itunes:episode": 60,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Alien (1979) Ep. 59 w/ special guest Ryan Terry",
+          "link": "https://www.classicmoviemusts.com/e/alien-1979-ep-54-w-special-guest-ryan-terry/",
+          "comments": "https://www.classicmoviemusts.com/e/alien-1979-ep-54-w-special-guest-ryan-terry/#comments",
+          "pubDate": "Fri, 19 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/alien-1979-ep-54-w-special-guest-ryan-terry-b17307de41e157c0c39fa5b344bb1b22",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, Max is joined by Ryan L. Terry from R.L. Terry's Reel View Film Blog to discuss Ridley Scott's sci-fi/horror masterpiece, Alien (1979), starring Sigourney Weaver, Tom Skerritt, John Hurt, and Ian Holm.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:54</p>\n<p>Feature Presentation: 7:35</p>\n<p>End Credits: 54:26</p>",
+          "content:encoded": "<p>In this episode, Max is joined by Ryan L. Terry from R.L. Terry's Reel View Film Blog to discuss Ridley Scott's sci-fi/horror masterpiece, Alien (1979), starring Sigourney Weaver, Tom Skerritt, John Hurt, and Ian Holm.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:54</p>\n<p>Feature Presentation: 7:35</p>\n<p>End Credits: 54:26</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/gpa9q7/Alien_1979_Ep_54.mp3",
+            "@_length": "63360083",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, Max is joined by Ryan L. Terry from R.L. Terry's Reel View Film Blog to discuss Ridley Scott's sci-fi/horror masterpiece, Alien (1979), starring Sigourney Weaver, Tom Skerritt, John Hurt, and Ian Holm.\nTimestamps:\nOpening Credits: 1:54\nF...",
+          "itunes:summary": "In this episode, Max is joined by Ryan L. Terry from R.L. Terry's Reel View Film Blog to discuss Ridley Scott's sci-fi/horror masterpiece, Alien (1979), starring Sigourney Weaver, Tom Skerritt, John Hurt, and Ian Holm.\nTimestamps:\nOpening Credits: 1:54\nFeature Presentation: 7:35\nEnd Credits: 54:26",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "55:25",
+          "itunes:episode": 59,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "TCMFF Day 4 Ep. 58",
+          "link": "https://www.classicmoviemusts.com/e/tcmff-day-4-ep-58/",
+          "comments": "https://www.classicmoviemusts.com/e/tcmff-day-4-ep-58/#comments",
+          "pubDate": "Thu, 18 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/tcmff-day-4-ep-58-7c4885edc6b264a7b88ee9120641fba9",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss the final day of the Turner Classic Movies Film Festival and three fantastic films: Holiday (1938), The Killers (1964), The Godfather: Part II (1974).  Tune-in tomorrow for our regularly scheduled programming and a deep dive into Ridley Scott's Alien (1979), and next week Robert Altman's Nashville (1975).</p>",
+          "content:encoded": "<p>In this episode we discuss the final day of the Turner Classic Movies Film Festival and three fantastic films: Holiday (1938), The Killers (1964), The Godfather: Part II (1974).  Tune-in tomorrow for our regularly scheduled programming and a deep dive into Ridley Scott's Alien (1979), and next week Robert Altman's Nashville (1975).</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/rz7tkj/TCMFF_Day_4_Ep_58.mp3",
+            "@_length": "54885702",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss the final day of the Turner Classic Movies Film Festival and three fantastic films: Holiday (1938), The Killers (1964), The Godfather: Part II (1974).  Tune-in tomorrow for our regularly scheduled programming and a deep dive in...",
+          "itunes:summary": "In this episode we discuss the final day of the Turner Classic Movies Film Festival and three fantastic films: Holiday (1938), The Killers (1964), The Godfather: Part II (1974).  Tune-in tomorrow for our regularly scheduled programming and a deep dive into Ridley Scott's Alien (1979), and next week Robert Altman's Nashville (1975).",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "43:33",
+          "itunes:episode": 58,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "TCMFF Day 3 Ep. 57",
+          "link": "https://www.classicmoviemusts.com/e/tcmff-day-3-ep-57/",
+          "comments": "https://www.classicmoviemusts.com/e/tcmff-day-3-ep-57/#comments",
+          "pubDate": "Wed, 17 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/tcmff-day-3-ep-57-3bb7bd816f06df1a5b2d53177df930a7",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we recap three wonderful films from Day 3 of the Turner Classic Movies Film Festival: Kind Hearts and Coronets (1949), Butch Cassidy and the Sundance Kid (1969), and Star Wars (1977).  Join us tomorrow for our final episode discussing the TCM Film Festival.</p>",
+          "content:encoded": "<p>In this episode we recap three wonderful films from Day 3 of the Turner Classic Movies Film Festival: Kind Hearts and Coronets (1949), Butch Cassidy and the Sundance Kid (1969), and Star Wars (1977).  Join us tomorrow for our final episode discussing the TCM Film Festival.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/e5qumz/TCMFF_Day_3_Ep_57.mp3",
+            "@_length": "60512142",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we recap three wonderful films from Day 3 of the Turner Classic Movies Film Festival: Kind Hearts and Coronets (1949), Butch Cassidy and the Sundance Kid (1969), and Star Wars (1977).  Join us tomorrow for our final episode discussing the...",
+          "itunes:summary": "In this episode we recap three wonderful films from Day 3 of the Turner Classic Movies Film Festival: Kind Hearts and Coronets (1949), Butch Cassidy and the Sundance Kid (1969), and Star Wars (1977).  Join us tomorrow for our final episode discussing the TCM Film Festival.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "48:55",
+          "itunes:episode": 57,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "TCMFF Day 2 Ep. 56",
+          "link": "https://www.classicmoviemusts.com/e/tcmff-day-2-ep-56/",
+          "comments": "https://www.classicmoviemusts.com/e/tcmff-day-2-ep-56/#comments",
+          "pubDate": "Tue, 16 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/tcmff-day-2-ep-56-46a919a7a9b1cf086d2158698623ae44",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss Day 2 of the Turner Classic Movies Film Festival and breakdown four fantastic films: My Favorite Wife (1940), Vanity Street (1932), Open Secret (1948), and Winchester '73 (1950). Join us tomorrow for our festival Day 3 Episode.</p>",
+          "content:encoded": "<p>In this episode we discuss Day 2 of the Turner Classic Movies Film Festival and breakdown four fantastic films: My Favorite Wife (1940), Vanity Street (1932), Open Secret (1948), and Winchester '73 (1950). Join us tomorrow for our festival Day 3 Episode.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/hmtd6d/TCMFF_Day_2_Ep_56.mp3",
+            "@_length": "58901718",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss Day 2 of the Turner Classic Movies Film Festival and breakdown four fantastic films: My Favorite Wife (1940), Vanity Street (1932), Open Secret (1948), and Winchester '73 (1950). Join us tomorrow for our festival Day 3 Episode.",
+          "itunes:summary": "In this episode we discuss Day 2 of the Turner Classic Movies Film Festival and breakdown four fantastic films: My Favorite Wife (1940), Vanity Street (1932), Open Secret (1948), and Winchester '73 (1950). Join us tomorrow for our festival Day 3 Episode.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "47:56",
+          "itunes:episode": 56,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "TCMFF Day 1 Ep. 55",
+          "link": "https://www.classicmoviemusts.com/e/tcmff-day-1-ep-55/",
+          "comments": "https://www.classicmoviemusts.com/e/tcmff-day-1-ep-55/#comments",
+          "pubDate": "Mon, 15 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/tcmff-day-1-ep-55-ba8222672c0b65720708cf936bc27364",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss the opening day of the Turner Classic Movies Film Festival and the two films we watched: Dark Passage (1947) and The Bachelor and the Bobby-Soxer (1947).  Tune-in tomorrow for our festival day 2 episode!</p>",
+          "content:encoded": "<p>In this episode we discuss the opening day of the Turner Classic Movies Film Festival and the two films we watched: Dark Passage (1947) and The Bachelor and the Bobby-Soxer (1947).  Tune-in tomorrow for our festival day 2 episode!</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/3uzkk9/TCMFF_Day_1_Ep_55.mp3",
+            "@_length": "57890718",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss the opening day of the Turner Classic Movies Film Festival and the two films we watched: Dark Passage (1947) and The Bachelor and the Bobby-Soxer (1947).  Tune-in tomorrow for our festival day 2 episode!",
+          "itunes:summary": "In this episode we discuss the opening day of the Turner Classic Movies Film Festival and the two films we watched: Dark Passage (1947) and The Bachelor and the Bobby-Soxer (1947).  Tune-in tomorrow for our festival day 2 episode!",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "47:06",
+          "itunes:episode": 55,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Raiders of the Lost Ark (1981) Ep. 54 w/ special guest Myke Emal",
+          "link": "https://www.classicmoviemusts.com/e/raiders-of-the-lost-ark-1981-ep-53-w-special-guest-myke-emal/",
+          "comments": "https://www.classicmoviemusts.com/e/raiders-of-the-lost-ark-1981-ep-53-w-special-guest-myke-emal/#comments",
+          "pubDate": "Fri, 12 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/raiders-of-the-lost-ark-1981-ep-53-w-special-guest-myke-emal-84acf23cd8ad45ebaf21fcd74751446e",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>Myke Emal from the CineMusts podcast joins us this week to discuss Steven Spielberg's adventure classic, Raiders of the Lost Ark (1981).  Join us as we discuss the film the kicked off the Indiana Jones franchise and what the film does cinematically to stand the test of time.</p>\n<p>Raiders of the Lost Ark is currently #66 on AFI's 100 Greatest Movies of All Time.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:44</p>\n<p>Feature Presentation: 8:07</p>\n<p>Ending Credits: 1:15:33</p>",
+          "content:encoded": "<p>Myke Emal from the CineMusts podcast joins us this week to discuss Steven Spielberg's adventure classic, Raiders of the Lost Ark (1981).  Join us as we discuss the film the kicked off the Indiana Jones franchise and what the film does cinematically to stand the test of time.</p>\n<p>Raiders of the Lost Ark is currently #66 on AFI's 100 Greatest Movies of All Time.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:44</p>\n<p>Feature Presentation: 8:07</p>\n<p>Ending Credits: 1:15:33</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/x4h6pu/Raiders_of_the_Los_Ark_1981_Ep_53.mp3",
+            "@_length": "92039212",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "Myke Emal from the CineMusts podcast joins us this week to discuss Steven Spielberg's adventure classic, Raiders of the Lost Ark (1981).  Join us as we discuss the film the kicked off the Indiana Jones franchise and what the film does cinematically to st...",
+          "itunes:summary": "Myke Emal from the CineMusts podcast joins us this week to discuss Steven Spielberg's adventure classic, Raiders of the Lost Ark (1981).  Join us as we discuss the film the kicked off the Indiana Jones franchise and what the film does cinematically to stand the test of time.\nRaiders of the Lost Ark is currently #66 on AFI's 100 Greatest Movies of All Time.\nTimestamps:\nOpening Credits: 1:44\nFeature Presentation: 8:07\nEnding Credits: 1:15:33",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "01:16:23",
+          "itunes:episode": 54,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Turner Classic Movies Film Festival Announcement Ep. 53",
+          "link": "https://www.classicmoviemusts.com/e/turner-classic-movies-film-festival-announcement-ep-53/",
+          "comments": "https://www.classicmoviemusts.com/e/turner-classic-movies-film-festival-announcement-ep-53/#comments",
+          "pubDate": "Mon, 08 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/turner-classic-movies-film-festival-announcement-ep-53-dc378d5c092f93f312860d78607d8ed8",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>This is a special announcement episode to layout our special coverage of the Turner Classic Movies Film Festival (TCMFF).  We'll be producing daily episodes from April 15-18 covering all the movies we watched at the festival.  Listen to hear which films we'll be watching and discussing!  Also, take advantage of our April Patreon promotion: all current patrons and anyone who joins in April gets a handwritten, custom Classic Movie Musts postcard in the mail.</p>\n<p>Read more about our TCMFF coverage at patreon.com/classicmoviemusts</p>",
+          "content:encoded": "<p>This is a special announcement episode to layout our special coverage of the Turner Classic Movies Film Festival (TCMFF).  We'll be producing daily episodes from April 15-18 covering all the movies we watched at the festival.  Listen to hear which films we'll be watching and discussing!  Also, take advantage of our April Patreon promotion: all current patrons and anyone who joins in April gets a handwritten, custom Classic Movie Musts postcard in the mail.</p>\n<p>Read more about our TCMFF coverage at patreon.com/classicmoviemusts</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/w2vfn8/Turner_Classic_Movies_Film_Festival_Announcement.mp3",
+            "@_length": "9579036",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "This is a special announcement episode to layout our special coverage of the Turner Classic Movies Film Festival (TCMFF).  We'll be producing daily episodes from April 15-18 covering all the movies we watched at the festival.  Listen to hear which films ...",
+          "itunes:summary": "This is a special announcement episode to layout our special coverage of the Turner Classic Movies Film Festival (TCMFF).  We'll be producing daily episodes from April 15-18 covering all the movies we watched at the festival.  Listen to hear which films we'll be watching and discussing!  Also, take advantage of our April Patreon promotion: all current patrons and anyone who joins in April gets a handwritten, custom Classic Movie Musts postcard in the mail.\nRead more about our TCMFF coverage at patreon.com/classicmoviemusts",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "05:44",
+          "itunes:episode": 53,
+          "itunes:episodeType": "bonus",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Do the Right Thing (1989) Ep. 52",
+          "link": "https://www.classicmoviemusts.com/e/do-the-right-thing-1989-ep-52/",
+          "comments": "https://www.classicmoviemusts.com/e/do-the-right-thing-1989-ep-52/#comments",
+          "pubDate": "Fri, 05 Apr 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/do-the-right-thing-1989-ep-52-c131574e56275f7b82b66d5a46eec343",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss Spike Lee's masterpiece, Do the Right Thing (1989), starring Spike Lee, Danny Aiello, and John Turturro.</p>\n<p>Do the Right Thing is currently #96 on AFI's 100 Greatest Movies of All Time.</p>\n<p>Timestamps:</p>\n<p>Opening Credits 1:47</p>\n<p>Feature Presentation: 6:26</p>\n<p>Buzz from the Backlot: 21:58</p>\n<p>Ending Credits: 24:18</p>",
+          "content:encoded": "<p>In this episode we discuss Spike Lee's masterpiece, Do the Right Thing (1989), starring Spike Lee, Danny Aiello, and John Turturro.</p>\n<p>Do the Right Thing is currently #96 on AFI's 100 Greatest Movies of All Time.</p>\n<p>Timestamps:</p>\n<p>Opening Credits 1:47</p>\n<p>Feature Presentation: 6:26</p>\n<p>Buzz from the Backlot: 21:58</p>\n<p>Ending Credits: 24:18</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/jtdpxy/Do_the_Right_Thing_1989_Ep_52.mp3",
+            "@_length": "33794492",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss Spike Lee's masterpiece, Do the Right Thing (1989), starring Spike Lee, Danny Aiello, and John Turturro.\nDo the Right Thing is currently #96 on AFI's 100 Greatest Movies of All Time.\nTimestamps:\nOpening Credits 1:47\nFeature Pre...",
+          "itunes:summary": "In this episode we discuss Spike Lee's masterpiece, Do the Right Thing (1989), starring Spike Lee, Danny Aiello, and John Turturro.\nDo the Right Thing is currently #96 on AFI's 100 Greatest Movies of All Time.\nTimestamps:\nOpening Credits 1:47\nFeature Presentation: 6:26\nBuzz from the Backlot: 21:58\nEnding Credits: 24:18",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "25:10",
+          "itunes:episode": 52,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Love Me Tonight (1932) Ep. 51",
+          "link": "https://www.classicmoviemusts.com/e/love-me-tonight-1932-ep-51/",
+          "comments": "https://www.classicmoviemusts.com/e/love-me-tonight-1932-ep-51/#comments",
+          "pubDate": "Fri, 29 Mar 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/love-me-tonight-1932-ep-51-281e0e61d82760ec80e0d19478af69fa",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we dance our way through Rouben Mamoulian's innovative early musical, Love Me Tonight (1932), starring Maurice Chevalier, Jeanette MacDonald, and Myrna Loy.  Tune-in to hear why this musical was so ahead of it's time, and represented a capstone to Paramount Studio's classical musical cycle.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:47</p>\n<p>Feature Presentation: 4:19</p>\n<p>Buzz from the Backlot: 21:22</p>\n<p>End Credits: 25:43</p>",
+          "content:encoded": "<p>In this episode we dance our way through Rouben Mamoulian's innovative early musical, Love Me Tonight (1932), starring Maurice Chevalier, Jeanette MacDonald, and Myrna Loy.  Tune-in to hear why this musical was so ahead of it's time, and represented a capstone to Paramount Studio's classical musical cycle.</p>\n<p>Timestamps:</p>\n<p>Opening Credits: 1:47</p>\n<p>Feature Presentation: 4:19</p>\n<p>Buzz from the Backlot: 21:22</p>\n<p>End Credits: 25:43</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/sa75fr/Love_Me_Tonight_1932_Ep_51.mp3",
+            "@_length": "34626833",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we dance our way through Rouben Mamoulian's innovative early musical, Love Me Tonight (1932), starring Maurice Chevalier, Jeanette MacDonald, and Myrna Loy.  Tune-in to hear why this musical was so ahead of it's time, and represented a ca...",
+          "itunes:summary": "In this episode we dance our way through Rouben Mamoulian's innovative early musical, Love Me Tonight (1932), starring Maurice Chevalier, Jeanette MacDonald, and Myrna Loy.  Tune-in to hear why this musical was so ahead of it's time, and represented a capstone to Paramount Studio's classical musical cycle.\nTimestamps:\nOpening Credits: 1:47\nFeature Presentation: 4:19\nBuzz from the Backlot: 21:22\nEnd Credits: 25:43",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "26:38",
+          "itunes:episode": 51,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Last Picture Show (1971) Ep. 50 w/ special guest Ted Walch",
+          "link": "https://www.classicmoviemusts.com/e/the-last-picture-show-1971-ep-50-w-special-guest-ted-walch/",
+          "comments": "https://www.classicmoviemusts.com/e/the-last-picture-show-1971-ep-50-w-special-guest-ted-walch/#comments",
+          "pubDate": "Fri, 22 Mar 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-last-picture-show-1971-ep-50-w-special-guest-ted-walch-a8284291b999382ac8cc668b4610a490",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we welcome back Ted Walch to discuss Peter Bogdanovich's coming of age drama, The Last Picture Show (1971), starring Timothy Bottoms, Jeff Bridges, Cybil Shepherd, Ben Johnson, and Cloris Leachman.</p>\n<p>Timestamps:</p>\n<p>1:37 Opening Credits</p>\n<p>6:08 Feature Presentation</p>\n<p>1:07:22 Final Segment</p>",
+          "content:encoded": "<p>In this episode we welcome back Ted Walch to discuss Peter Bogdanovich's coming of age drama, The Last Picture Show (1971), starring Timothy Bottoms, Jeff Bridges, Cybil Shepherd, Ben Johnson, and Cloris Leachman.</p>\n<p>Timestamps:</p>\n<p>1:37 Opening Credits</p>\n<p>6:08 Feature Presentation</p>\n<p>1:07:22 Final Segment</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/trtwxs/The_Last_Picture_Show_1971_Ep_50.mp3",
+            "@_length": "86112695",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we welcome back Ted Walch to discuss Peter Bogdanovich's coming of age drama, The Last Picture Show (1971), starring Timothy Bottoms, Jeff Bridges, Cybil Shepherd, Ben Johnson, and Cloris Leachman.\nTimestamps:\n1:37 Opening Credits\n6:08 Fe...",
+          "itunes:summary": "In this episode we welcome back Ted Walch to discuss Peter Bogdanovich's coming of age drama, The Last Picture Show (1971), starring Timothy Bottoms, Jeff Bridges, Cybil Shepherd, Ben Johnson, and Cloris Leachman.\nTimestamps:\n1:37 Opening Credits\n6:08 Feature Presentation\n1:07:22 Final Segment",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "01:08:08",
+          "itunes:episode": 50,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Killing (1956) Ep. 49",
+          "link": "https://www.classicmoviemusts.com/e/the-killing-1956-ep-49/",
+          "comments": "https://www.classicmoviemusts.com/e/the-killing-1956-ep-49/#comments",
+          "pubDate": "Fri, 15 Mar 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-killing-1956-ep-49-481071bac60ce02bb143f85277138906",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we breakdown one of Stanley Kubrick's early films, the noir influenced heist caper, The Killing (1956).  Starring Sterling Hayden and a great ensemble of supporters, this film represents an early experiment in non-linear storytelling, and is an all-time great heist film.</p>",
+          "content:encoded": "<p>In this episode we breakdown one of Stanley Kubrick's early films, the noir influenced heist caper, The Killing (1956).  Starring Sterling Hayden and a great ensemble of supporters, this film represents an early experiment in non-linear storytelling, and is an all-time great heist film.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/zcvjn2/The_Killing_1956_Ep_49.mp3",
+            "@_length": "29706306",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we breakdown one of Stanley Kubrick's early films, the noir influenced heist caper, The Killing (1956).  Starring Sterling Hayden and a great ensemble of supporters, this film represents an early experiment in non-linear storytelling, and...",
+          "itunes:summary": "In this episode we breakdown one of Stanley Kubrick's early films, the noir influenced heist caper, The Killing (1956).  Starring Sterling Hayden and a great ensemble of supporters, this film represents an early experiment in non-linear storytelling, and is an all-time great heist film.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "21:30",
+          "itunes:episode": 49,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "All That Jazz (1979) Ep. 48",
+          "link": "https://www.classicmoviemusts.com/e/all-that-jazz-1979-ep-48/",
+          "comments": "https://www.classicmoviemusts.com/e/all-that-jazz-1979-ep-48/#comments",
+          "pubDate": "Fri, 08 Mar 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/all-that-jazz-1979-ep-48-fd08207d847fe58cfcbf0e364322b25f",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss sound design and editing in Bob Fosse's iconic musical, All That Jazz (1979), starring Roy Scheider, Jessica Lange, Leland Palmer, and Ann Reinking.</p>",
+          "content:encoded": "<p>In this episode, we discuss sound design and editing in Bob Fosse's iconic musical, All That Jazz (1979), starring Roy Scheider, Jessica Lange, Leland Palmer, and Ann Reinking.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/gkkx6d/All_That_Jazz_1979_Ep_48.mp3",
+            "@_length": "29849662",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss sound design and editing in Bob Fosse's iconic musical, All That Jazz (1979), starring Roy Scheider, Jessica Lange, Leland Palmer, and Ann Reinking.",
+          "itunes:summary": "In this episode, we discuss sound design and editing in Bob Fosse's iconic musical, All That Jazz (1979), starring Roy Scheider, Jessica Lange, Leland Palmer, and Ann Reinking.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "22:17",
+          "itunes:episode": 48,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Set-Up (1949) Ep. 47 w/ special guest Raquel Stecher",
+          "link": "https://www.classicmoviemusts.com/e/the-set-up-1949-ep-47-w-special-guest-raquel-stecher/",
+          "comments": "https://www.classicmoviemusts.com/e/the-set-up-1949-ep-47-w-special-guest-raquel-stecher/#comments",
+          "pubDate": "Fri, 01 Mar 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-set-up-1949-ep-47-w-special-guest-raquel-stecher-bb475fb02b72db3e85e6892b6826faa6",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, Max welcomes Raquel Stecher from Out of the Past blog and Quelle Movies blog to discuss Robert Wise's noir boxing drama, The Set-Up (1949).  Starring Robert Ryan and Audrey Totter, this hybrid noir boxing drama is both compelling in its own right, as well as an inspiration for many Hollywood classics.</p>",
+          "content:encoded": "<p>In this episode, Max welcomes Raquel Stecher from Out of the Past blog and Quelle Movies blog to discuss Robert Wise's noir boxing drama, The Set-Up (1949).  Starring Robert Ryan and Audrey Totter, this hybrid noir boxing drama is both compelling in its own right, as well as an inspiration for many Hollywood classics.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/75sv8t/The_Set-Up_1946_Ep_47.mp3",
+            "@_length": "70713323",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, Max welcomes Raquel Stecher from Out of the Past blog and Quelle Movies blog to discuss Robert Wise's noir boxing drama, The Set-Up (1949).  Starring Robert Ryan and Audrey Totter, this hybrid noir boxing drama is both compelling in its ...",
+          "itunes:summary": "In this episode, Max welcomes Raquel Stecher from Out of the Past blog and Quelle Movies blog to discuss Robert Wise's noir boxing drama, The Set-Up (1949).  Starring Robert Ryan and Audrey Totter, this hybrid noir boxing drama is both compelling in its own right, as well as an inspiration for many Hollywood classics.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "59:49",
+          "itunes:episode": 47,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Gilda (1946) Ep. 46",
+          "link": "https://www.classicmoviemusts.com/e/gilda-1946-ep-46/",
+          "comments": "https://www.classicmoviemusts.com/e/gilda-1946-ep-46/#comments",
+          "pubDate": "Fri, 22 Feb 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/gilda-1946-ep-46-a5a07a1631d3eedddc9ab67eb3da79fe",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss a film suggested and selected by our Patreon community, Gilda (1946), directed by Charles Vidor and starring Rita Hayworth and Glenn Ford.  Join us we breakdown the constant sexual tension in this film noir musical romance.</p>",
+          "content:encoded": "<p>In this episode, we discuss a film suggested and selected by our Patreon community, Gilda (1946), directed by Charles Vidor and starring Rita Hayworth and Glenn Ford.  Join us we breakdown the constant sexual tension in this film noir musical romance.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/4sszpa/Gilda_1946_Ep_46.mp3",
+            "@_length": "34957961",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss a film suggested and selected by our Patreon community, Gilda (1946), directed by Charles Vidor and starring Rita Hayworth and Glenn Ford.  Join us we breakdown the constant sexual tension in this film noir musical romance.",
+          "itunes:summary": "In this episode, we discuss a film suggested and selected by our Patreon community, Gilda (1946), directed by Charles Vidor and starring Rita Hayworth and Glenn Ford.  Join us we breakdown the constant sexual tension in this film noir musical romance.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "26:13",
+          "itunes:episode": 46,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Anatomy of a Murder (1959) Ep. 45",
+          "link": "https://www.classicmoviemusts.com/e/anatomy-of-a-murder-1959-ep-45/",
+          "comments": "https://www.classicmoviemusts.com/e/anatomy-of-a-murder-1959-ep-45/#comments",
+          "pubDate": "Fri, 15 Feb 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/anatomy-of-a-murder-1959-ep-45-4884cc449eef48e097859fd1ec2c4fc4",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss Otto Preminger's courtroom drama, Anatomy of a Murder (1959), starring James Stewart, Lee Remick, and George C. Scott.  Join us as we examine the combination of objectivity and ambiguity that makes Preminger's film so gripping.</p>",
+          "content:encoded": "<p>In this episode, we discuss Otto Preminger's courtroom drama, Anatomy of a Murder (1959), starring James Stewart, Lee Remick, and George C. Scott.  Join us as we examine the combination of objectivity and ambiguity that makes Preminger's film so gripping.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/2nhgcu/Anatomy_of_a_Murder_1959_Ep_45.mp3",
+            "@_length": "32491158",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss Otto Preminger's courtroom drama, Anatomy of a Murder (1959), starring James Stewart, Lee Remick, and George C. Scott.  Join us as we examine the combination of objectivity and ambiguity that makes Preminger's film so gripping...",
+          "itunes:summary": "In this episode, we discuss Otto Preminger's courtroom drama, Anatomy of a Murder (1959), starring James Stewart, Lee Remick, and George C. Scott.  Join us as we examine the combination of objectivity and ambiguity that makes Preminger's film so gripping.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "23:47",
+          "itunes:episode": 45,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Rosemary's Baby (1968) Ep. 44",
+          "link": "https://www.classicmoviemusts.com/e/rosemarys-baby-1968-ep-44/",
+          "comments": "https://www.classicmoviemusts.com/e/rosemarys-baby-1968-ep-44/#comments",
+          "pubDate": "Fri, 08 Feb 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/rosemarys-baby-1968-ep-44-de77fc08ac6c69e4d934939c17fa511d",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss Roman Polanski's horror film, Rosemary's Baby (1968), starring Mia Farrow, John Cassavetes, and Ruth Gordon.  We examine how Polanski transforms such a mundane world into a deeply disturbing reality.</p>",
+          "content:encoded": "<p>In this episode, we discuss Roman Polanski's horror film, Rosemary's Baby (1968), starring Mia Farrow, John Cassavetes, and Ruth Gordon.  We examine how Polanski transforms such a mundane world into a deeply disturbing reality.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/ea7tdp/Rosemary_s_Baby_1968_Ep_44.mp3",
+            "@_length": "29507208",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss Roman Polanski's horror film, Rosemary's Baby (1968), starring Mia Farrow, John Cassavetes, and Ruth Gordon.  We examine how Polanski transforms such a mundane world into a deeply disturbing reality.",
+          "itunes:summary": "In this episode, we discuss Roman Polanski's horror film, Rosemary's Baby (1968), starring Mia Farrow, John Cassavetes, and Ruth Gordon.  We examine how Polanski transforms such a mundane world into a deeply disturbing reality.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "21:15",
+          "itunes:episode": 44,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Citizen Kane (1941) Ep. 43 w/ special guest Ted Walch",
+          "link": "https://www.classicmoviemusts.com/e/citizen-kane-1941-ep-43-w-special-guest-ted-walch/",
+          "comments": "https://www.classicmoviemusts.com/e/citizen-kane-1941-ep-43-w-special-guest-ted-walch/#comments",
+          "pubDate": "Fri, 01 Feb 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/citizen-kane-1941-ep-43-w-special-guest-ted-walch-58b2db18cddcac95fd15457d7523c82a",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, Max welcomes back Ted Walch to tackle the Orson Welles masterpiece, Citizen Kane (1941).  Starring Orson Welles himself, this film combines and layers cinematic technique with such deliberate sophistication that it is clearly one of the most important films of all-time.</p>\n<p>Citizen Kane is currently #1 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode, Max welcomes back Ted Walch to tackle the Orson Welles masterpiece, Citizen Kane (1941).  Starring Orson Welles himself, this film combines and layers cinematic technique with such deliberate sophistication that it is clearly one of the most important films of all-time.</p>\n<p>Citizen Kane is currently #1 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/mpc2ah/Citizen_Kane_1941_Ep_43.mp3",
+            "@_length": "115768184",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, Max welcomes back Ted Walch to tackle the Orson Welles masterpiece, Citizen Kane (1941).  Starring Orson Welles himself, this film combines and layers cinematic technique with such deliberate sophistication that it is clearly one of the ...",
+          "itunes:summary": "In this episode, Max welcomes back Ted Walch to tackle the Orson Welles masterpiece, Citizen Kane (1941).  Starring Orson Welles himself, this film combines and layers cinematic technique with such deliberate sophistication that it is clearly one of the most important films of all-time.\nCitizen Kane is currently #1 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "01:31:52",
+          "itunes:episode": 43,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Manchurian Candidate (1962) Ep. 42 w/ special guest Myke Emal",
+          "link": "https://www.classicmoviemusts.com/e/the-manchurian-candidate-1962-ep-42/",
+          "comments": "https://www.classicmoviemusts.com/e/the-manchurian-candidate-1962-ep-42/#comments",
+          "pubDate": "Fri, 25 Jan 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-manchurian-candidate-1962-ep-42-5f34bb43d0f4d3a23e48e56a6d03a998",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we welcome Myke Emal from the CineMusts Podcast to help breakdown the historical context and artistic excellence of The Manchurian Candidate (1962).  Starring Frank Sinatra, Laurence Harvey, and Angela Lansbury, this is a timeless political thriller, filled with paranoia and deception.  </p>",
+          "content:encoded": "<p>In this episode we welcome Myke Emal from the CineMusts Podcast to help breakdown the historical context and artistic excellence of The Manchurian Candidate (1962).  Starring Frank Sinatra, Laurence Harvey, and Angela Lansbury, this is a timeless political thriller, filled with paranoia and deception.  </p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/wwz2y6/The_Manchurian_Candidate_1962_Ep_42.mp3",
+            "@_length": "80080692",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we welcome Myke Emal from the CineMusts Podcast to help breakdown the historical context and artistic excellence of The Manchurian Candidate (1962).  Starring Frank Sinatra, Laurence Harvey, and Angela Lansbury, this is a timeless politic...",
+          "itunes:summary": "In this episode we welcome Myke Emal from the CineMusts Podcast to help breakdown the historical context and artistic excellence of The Manchurian Candidate (1962).  Starring Frank Sinatra, Laurence Harvey, and Angela Lansbury, this is a timeless political thriller, filled with paranoia and deception.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "01:03:29",
+          "itunes:episode": 42,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Red River (1948) Ep. 41",
+          "link": "https://www.classicmoviemusts.com/e/red-river-1948-ep-41/",
+          "comments": "https://www.classicmoviemusts.com/e/red-river-1948-ep-41/#comments",
+          "pubDate": "Fri, 18 Jan 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/red-river-1948-ep-41-8e97ea838c8f485e42a0fb8fa60290a5",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss Howard Hawks's Red River (1948), starring John Wayne and Montgomery Clift, and dissect the evolution of the male persona in postwar America, as well as a subverting of western genre myths.</p>",
+          "content:encoded": "<p>In this episode we discuss Howard Hawks's Red River (1948), starring John Wayne and Montgomery Clift, and dissect the evolution of the male persona in postwar America, as well as a subverting of western genre myths.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/s5y5pd/Red_River_1948_Ep_41.mp3",
+            "@_length": "34072071",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss Howard Hawks's Red River (1948), starring John Wayne and Montgomery Clift, and dissect the evolution of the male persona in postwar America, as well as a subverting of western genre myths.",
+          "itunes:summary": "In this episode we discuss Howard Hawks's Red River (1948), starring John Wayne and Montgomery Clift, and dissect the evolution of the male persona in postwar America, as well as a subverting of western genre myths.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "26:22",
+          "itunes:episode": 41,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Sunset Boulevard (1950) Ep. 40",
+          "link": "https://www.classicmoviemusts.com/e/sunset-boulevard-1950-ep-40/",
+          "comments": "https://www.classicmoviemusts.com/e/sunset-boulevard-1950-ep-40/#comments",
+          "pubDate": "Fri, 11 Jan 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/sunset-boulevard-1950-ep-40-2674568d438baf7fe5c6698f2d55be80",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss Billy Wilder's infamous, Sunset Boulevard (1950), starring Gloria Swanson and William Holden, and breakdown Wilder's scathing criticism of Hollywood.  </p>\n<p>Sunset Boulevard is currently #12 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode we discuss Billy Wilder's infamous, Sunset Boulevard (1950), starring Gloria Swanson and William Holden, and breakdown Wilder's scathing criticism of Hollywood.  </p>\n<p>Sunset Boulevard is currently #12 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/ies9gq/Sunset_Boulevard_1950_Ep_40.mp3",
+            "@_length": "32802072",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss Billy Wilder's infamous, Sunset Boulevard (1950), starring Gloria Swanson and William Holden, and breakdown Wilder's scathing criticism of Hollywood.  \nSunset Boulevard is currently #12 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:summary": "In this episode we discuss Billy Wilder's infamous, Sunset Boulevard (1950), starring Gloria Swanson and William Holden, and breakdown Wilder's scathing criticism of Hollywood.  \nSunset Boulevard is currently #12 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "24:48",
+          "itunes:episode": 40,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Adventures of Robin Hood (1938) Ep. 39",
+          "link": "https://www.classicmoviemusts.com/e/the-adventures-of-robin-hood-1938-ep-39/",
+          "comments": "https://www.classicmoviemusts.com/e/the-adventures-of-robin-hood-1938-ep-39/#comments",
+          "pubDate": "Fri, 04 Jan 2019 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-adventures-of-robin-hood-1938-ep-39-ac7ecccd5f47dc2e66e639d286d5245c",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we break down the swashbuckling adventure, The Adventures of Robin Hood (1938), starring Errol Flynn, Olivia de Havilland, and Claude Rains.  We discuss how director Michael Curtiz enhanced the excitement and tension of the film thanks to dynamic editing techniques that would influence Hollywood action movies for generations.</p>",
+          "content:encoded": "<p>In this episode, we break down the swashbuckling adventure, The Adventures of Robin Hood (1938), starring Errol Flynn, Olivia de Havilland, and Claude Rains.  We discuss how director Michael Curtiz enhanced the excitement and tension of the film thanks to dynamic editing techniques that would influence Hollywood action movies for generations.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/kt85kr/The_Adventures_of_Robin_Hood_1938_Ep_39.mp3",
+            "@_length": "30150257",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we break down the swashbuckling adventure, The Adventures of Robin Hood (1938), starring Errol Flynn, Olivia de Havilland, and Claude Rains.  We discuss how director Michael Curtiz enhanced the excitement and tension of the film thanks t...",
+          "itunes:summary": "In this episode, we break down the swashbuckling adventure, The Adventures of Robin Hood (1938), starring Errol Flynn, Olivia de Havilland, and Claude Rains.  We discuss how director Michael Curtiz enhanced the excitement and tension of the film thanks to dynamic editing techniques that would influence Hollywood action movies for generations.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "22:31",
+          "itunes:episode": 39,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Shining (1980) Ep. 38",
+          "link": "https://www.classicmoviemusts.com/e/the-shining-1980-ep-38/",
+          "comments": "https://www.classicmoviemusts.com/e/the-shining-1980-ep-38/#comments",
+          "pubDate": "Fri, 28 Dec 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-shining-1980-ep-38-6d2c5679a66d7d6f164a498afad08694",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we dissect the Stanley Kubrick horror classic, The Shining (1980), starring Jack Nicholson, Shelley Duvall, and Danny Lloyd.  The Shining is a deceptively simple horror narrative that works largely beneath the surface to reveal psychological breakdown, and the collapse of the American family.</p>",
+          "content:encoded": "<p>In this episode, we dissect the Stanley Kubrick horror classic, The Shining (1980), starring Jack Nicholson, Shelley Duvall, and Danny Lloyd.  The Shining is a deceptively simple horror narrative that works largely beneath the surface to reveal psychological breakdown, and the collapse of the American family.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/psd8hz/The_Shining_1980_Ep_38.mp3",
+            "@_length": "36505522",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we dissect the Stanley Kubrick horror classic, The Shining (1980), starring Jack Nicholson, Shelley Duvall, and Danny Lloyd.  The Shining is a deceptively simple horror narrative that works largely beneath the surface to reveal psycholog...",
+          "itunes:summary": "In this episode, we dissect the Stanley Kubrick horror classic, The Shining (1980), starring Jack Nicholson, Shelley Duvall, and Danny Lloyd.  The Shining is a deceptively simple horror narrative that works largely beneath the surface to reveal psychological breakdown, and the collapse of the American family.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "27:29",
+          "itunes:episode": 38,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "It's A Wonderful Life (1946) Ep. 37",
+          "link": "https://www.classicmoviemusts.com/e/its-a-wonderful-life-1946-ep-37/",
+          "comments": "https://www.classicmoviemusts.com/e/its-a-wonderful-life-1946-ep-37/#comments",
+          "pubDate": "Fri, 21 Dec 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/its-a-wonderful-life-1946-ep-37-a3ef96e0063894028a4e23a5a99d334b",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss the holiday classic, It's A Wonderful Life (1946).  Directed by Frank Capra and starring Jimmy Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell, and Henry Travers, this film wrestles with themes of individual vs. community like only Capra can.</p>\n<p>It's A Wonderful Life is currently #20 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode, we discuss the holiday classic, It's A Wonderful Life (1946).  Directed by Frank Capra and starring Jimmy Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell, and Henry Travers, this film wrestles with themes of individual vs. community like only Capra can.</p>\n<p>It's A Wonderful Life is currently #20 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/mish2j/It_s_A_Wonderful_Life_1946_Ep_37.mp3",
+            "@_length": "31375039",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss the holiday classic, It's A Wonderful Life (1946).  Directed by Frank Capra and starring Jimmy Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell, and Henry Travers, this film wrestles with themes of individual vs. communi...",
+          "itunes:summary": "In this episode, we discuss the holiday classic, It's A Wonderful Life (1946).  Directed by Frank Capra and starring Jimmy Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell, and Henry Travers, this film wrestles with themes of individual vs. community like only Capra can.\nIt's A Wonderful Life is currently #20 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "23:46",
+          "itunes:episode": 37,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Casablanca (1942) Ep. 36 w/ special guest Ted Walch",
+          "link": "https://www.classicmoviemusts.com/e/casablanca-1942-ep-26-w-special-guest-ted-walch/",
+          "comments": "https://www.classicmoviemusts.com/e/casablanca-1942-ep-26-w-special-guest-ted-walch/#comments",
+          "pubDate": "Fri, 14 Dec 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/casablanca-1942-ep-26-w-special-guest-ted-walch-170f104d5fce528deff9dbd8b3b85cd9",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we're joined again by Ted Walch to discuss a film of legendary stature, Casablanca (1942), starring Humphrey Bogart, Ingrid Bergman, Claude Rains, and Dooley Wilson. </p>",
+          "content:encoded": "<p>In this episode, we're joined again by Ted Walch to discuss a film of legendary stature, Casablanca (1942), starring Humphrey Bogart, Ingrid Bergman, Claude Rains, and Dooley Wilson. </p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/uxmim6/Casablanca_1942_Ep_36.mp3",
+            "@_length": "86209006",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we're joined again by Ted Walch to discuss a film of legendary stature, Casablanca (1942), starring Humphrey Bogart, Ingrid Bergman, Claude Rains, and Dooley Wilson.",
+          "itunes:summary": "In this episode, we're joined again by Ted Walch to discuss a film of legendary stature, Casablanca (1942), starring Humphrey Bogart, Ingrid Bergman, Claude Rains, and Dooley Wilson.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "01:08:16",
+          "itunes:episode": 36,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Cabaret (1972) Ep. 35",
+          "link": "https://www.classicmoviemusts.com/e/cabaret-1972-ep-35/",
+          "comments": "https://www.classicmoviemusts.com/e/cabaret-1972-ep-35/#comments",
+          "pubDate": "Fri, 07 Dec 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/cabaret-1972-ep-35-72b3dcd540caee47a7d01d8e6a90d00a",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss Bob Fosse's modernist film musical, Cabaret (1972), starring Liza Minnelli, Michael York, and Joel Grey.</p>\n<p> </p>\n<p>Cabaret is currently #63 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode, we discuss Bob Fosse's modernist film musical, Cabaret (1972), starring Liza Minnelli, Michael York, and Joel Grey.</p>\n<p> </p>\n<p>Cabaret is currently #63 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/qa8czc/Cabaret_1972_Ep_35.mp3",
+            "@_length": "29908655",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss Bob Fosse's modernist film musical, Cabaret (1972), starring Liza Minnelli, Michael York, and Joel Grey.\n \nCabaret is currently #63 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:summary": "In this episode, we discuss Bob Fosse's modernist film musical, Cabaret (1972), starring Liza Minnelli, Michael York, and Joel Grey.\n \nCabaret is currently #63 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "22:35",
+          "itunes:episode": 35,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "How Green Was My Valley (1941) Ep. 34",
+          "link": "https://www.classicmoviemusts.com/e/how-green-was-my-valley-1941-ep-34/",
+          "comments": "https://www.classicmoviemusts.com/e/how-green-was-my-valley-1941-ep-34/#comments",
+          "pubDate": "Fri, 30 Nov 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/how-green-was-my-valley-1941-ep-34-1d44433ce22369e9476bcb65f9fa8529",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>During this episode, we discuss how John Ford uses cinematography, editing, and production design to evoke the power of memory in the family melodrama, How Green Was My Valley (1941), starring Walter Pidgeon, Maureen O'Hara, Donald Crisp, and Roddy McDowell.  Join us as we discuss the film that beat Citizen Kane to the Best Picture Oscar.</p>",
+          "content:encoded": "<p>During this episode, we discuss how John Ford uses cinematography, editing, and production design to evoke the power of memory in the family melodrama, How Green Was My Valley (1941), starring Walter Pidgeon, Maureen O'Hara, Donald Crisp, and Roddy McDowell.  Join us as we discuss the film that beat Citizen Kane to the Best Picture Oscar.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/skcuqh/How_Green_Was_My_Valley_1941_Ep_34.mp3",
+            "@_length": "29665801",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "During this episode, we discuss how John Ford uses cinematography, editing, and production design to evoke the power of memory in the family melodrama, How Green Was My Valley (1941), starring Walter Pidgeon, Maureen O'Hara, Donald Crisp, and Roddy McDow...",
+          "itunes:summary": "During this episode, we discuss how John Ford uses cinematography, editing, and production design to evoke the power of memory in the family melodrama, How Green Was My Valley (1941), starring Walter Pidgeon, Maureen O'Hara, Donald Crisp, and Roddy McDowell.  Join us as we discuss the film that beat Citizen Kane to the Best Picture Oscar.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "22:13",
+          "itunes:episode": 34,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Kid (1921) Ep. 33 w/ special guest Ted Walch",
+          "link": "https://www.classicmoviemusts.com/e/the-kid-1921-ep-33-w-special-guest-ted-walch/",
+          "comments": "https://www.classicmoviemusts.com/e/the-kid-1921-ep-33-w-special-guest-ted-walch/#comments",
+          "pubDate": "Fri, 23 Nov 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-kid-1921-ep-33-w-special-guest-ted-walch-b4ebe1eae8aa6f497d49cd5a9924c948",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we're joined by teacher and film historian Ted Walch to discuss Charlie Chaplin's first feature length film, The Kid (1921), starring himself and Jackie Coogan.</p>",
+          "content:encoded": "<p>In this episode, we're joined by teacher and film historian Ted Walch to discuss Charlie Chaplin's first feature length film, The Kid (1921), starring himself and Jackie Coogan.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/p4h45n/The_Kid_1921_Ep_33.mp3",
+            "@_length": "72709189",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we're joined by teacher and film historian Ted Walch to discuss Charlie Chaplin's first feature length film, The Kid (1921), starring himself and Jackie Coogan.",
+          "itunes:summary": "In this episode, we're joined by teacher and film historian Ted Walch to discuss Charlie Chaplin's first feature length film, The Kid (1921), starring himself and Jackie Coogan.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "55:09",
+          "itunes:episode": 33,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Wild Bunch (1969) Ep. 32",
+          "link": "https://www.classicmoviemusts.com/e/the-wild-bunch-1969-ep-32/",
+          "comments": "https://www.classicmoviemusts.com/e/the-wild-bunch-1969-ep-32/#comments",
+          "pubDate": "Fri, 16 Nov 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-wild-bunch-1969-ep-32-9dca78d73241214794c3afafbb4afbf0",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss Sam Peckinpah's modernist western, The Wild Bunch (1969).  Surrounding a ruthless, violent group of outlaws, starring William Holden, Ernest Borgnine, and Robert Ryan, The Wild Bunch redefined violence in American movies.</p>\n<p>The Wild Bunch is currently #79 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode, we discuss Sam Peckinpah's modernist western, The Wild Bunch (1969).  Surrounding a ruthless, violent group of outlaws, starring William Holden, Ernest Borgnine, and Robert Ryan, The Wild Bunch redefined violence in American movies.</p>\n<p>The Wild Bunch is currently #79 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/zc7bq5/The_Wild_Bunch_1969_Ep_32.mp3",
+            "@_length": "28232427",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss Sam Peckinpah's modernist western, The Wild Bunch (1969).  Surrounding a ruthless, violent group of outlaws, starring William Holden, Ernest Borgnine, and Robert Ryan, The Wild Bunch redefined violence in American movies.\nThe ...",
+          "itunes:summary": "In this episode, we discuss Sam Peckinpah's modernist western, The Wild Bunch (1969).  Surrounding a ruthless, violent group of outlaws, starring William Holden, Ernest Borgnine, and Robert Ryan, The Wild Bunch redefined violence in American movies.\nThe Wild Bunch is currently #79 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "20:52",
+          "itunes:episode": 32,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Pillow Talk (1959) Ep. 31",
+          "link": "https://www.classicmoviemusts.com/e/pillow-talk-1959-ep-31/",
+          "comments": "https://www.classicmoviemusts.com/e/pillow-talk-1959-ep-31/#comments",
+          "pubDate": "Fri, 09 Nov 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/pillow-talk-1959-ep-31-abaac2f3f26cd922afb1c681076d911f",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we're discussing the Doris Day, Rock Hudson romantic comedy, Pillow Talk (1959).  This influential film's success is reflective of equal parts innovation for the genre going forward and inspiration from the screwball comedy that came before.</p>",
+          "content:encoded": "<p>In this episode, we're discussing the Doris Day, Rock Hudson romantic comedy, Pillow Talk (1959).  This influential film's success is reflective of equal parts innovation for the genre going forward and inspiration from the screwball comedy that came before.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/r5ccf2/Pillow_Talk_1959_Ep_31.mp3",
+            "@_length": "29526730",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we're discussing the Doris Day, Rock Hudson romantic comedy, Pillow Talk (1959).  This influential film's success is reflective of equal parts innovation for the genre going forward and inspiration from the screwball comedy that came bef...",
+          "itunes:summary": "In this episode, we're discussing the Doris Day, Rock Hudson romantic comedy, Pillow Talk (1959).  This influential film's success is reflective of equal parts innovation for the genre going forward and inspiration from the screwball comedy that came before.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "21:38",
+          "itunes:episode": 31,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "http://classicmoviemusts.podbean.com/mf/web/migdjj/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "A Star is Born (1954) Ep. 30",
+          "link": "https://www.classicmoviemusts.com/e/a-star-is-born-1954-ep-30/",
+          "comments": "https://www.classicmoviemusts.com/e/a-star-is-born-1954-ep-30/#comments",
+          "pubDate": "Fri, 02 Nov 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/a-star-is-born-1954-ep-30-90a5b814514bf4e40d92d7da60723477",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we dive into the musical drama A Star is Born (1954), directed by George Cukor and starring Judy Garland and James Mason.  We'll examine how this powerful film leverages Garland's performance and persona to devastating effect.</p>",
+          "content:encoded": "<p>In this episode, we dive into the musical drama A Star is Born (1954), directed by George Cukor and starring Judy Garland and James Mason.  We'll examine how this powerful film leverages Garland's performance and persona to devastating effect.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/frc86n/A_Star_is_Born_1954_Ep_30.mp3",
+            "@_length": "36414348",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we dive into the musical drama A Star is Born (1954), directed by George Cukor and starring Judy Garland and James Mason.  We'll examine how this powerful film leverages Garland's performance and persona to devastating effect.",
+          "itunes:summary": "In this episode, we dive into the musical drama A Star is Born (1954), directed by George Cukor and starring Judy Garland and James Mason.  We'll examine how this powerful film leverages Garland's performance and persona to devastating effect.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "28:07",
+          "itunes:episode": 30,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Psycho (1960) Ep. 29",
+          "link": "https://www.classicmoviemusts.com/e/psycho-1960-ep-29/",
+          "comments": "https://www.classicmoviemusts.com/e/psycho-1960-ep-29/#comments",
+          "pubDate": "Fri, 26 Oct 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/psycho-1960-ep-29-5279e08a0bd2c63c7558a2ab483ab7d4",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we close out Alfred Hitchcock month with his legendary film Psycho (1960), starring Janet Leigh and Anthony Perkins.  We discuss how Psycho represented the final undoing of Hitchcock's emblematic style, and acts as the ideal capstone to his storied career.</p>",
+          "content:encoded": "<p>In this episode, we close out Alfred Hitchcock month with his legendary film Psycho (1960), starring Janet Leigh and Anthony Perkins.  We discuss how Psycho represented the final undoing of Hitchcock's emblematic style, and acts as the ideal capstone to his storied career.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/nje2im/Psycho_1960_Ep_29.mp3",
+            "@_length": "41367001",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we close out Alfred Hitchcock month with his legendary film Psycho (1960), starring Janet Leigh and Anthony Perkins.  We discuss how Psycho represented the final undoing of Hitchcock's emblematic style, and acts as the ideal capstone to ...",
+          "itunes:summary": "In this episode, we close out Alfred Hitchcock month with his legendary film Psycho (1960), starring Janet Leigh and Anthony Perkins.  We discuss how Psycho represented the final undoing of Hitchcock's emblematic style, and acts as the ideal capstone to his storied career.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "31:14",
+          "itunes:episode": 29,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Rear Window (1954) Ep. 28",
+          "link": "https://www.classicmoviemusts.com/e/rear-window-1954-ep-28/",
+          "comments": "https://www.classicmoviemusts.com/e/rear-window-1954-ep-28/#comments",
+          "pubDate": "Fri, 19 Oct 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/rear-window-1954-ep-28-3eb1904a3f927b050cc66fe24869f1df",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we discuss the iconic Alfred Hitchcock thriller, Rear Window (1954), starring Jimmy Stewart and Grace Kelly.  We'll breakdown how Hitchcock ramped up the suspense by centering the film on an everyday scenario and we'll continue to examine the importance of romance and trust to Hitchcock's films. </p>\n<p>Rear Window is currently #48 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode we discuss the iconic Alfred Hitchcock thriller, Rear Window (1954), starring Jimmy Stewart and Grace Kelly.  We'll breakdown how Hitchcock ramped up the suspense by centering the film on an everyday scenario and we'll continue to examine the importance of romance and trust to Hitchcock's films. </p>\n<p>Rear Window is currently #48 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/ttrmip/Rear_Window_1954_Ep_28.mp3",
+            "@_length": "31918425",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we discuss the iconic Alfred Hitchcock thriller, Rear Window (1954), starring Jimmy Stewart and Grace Kelly.  We'll breakdown how Hitchcock ramped up the suspense by centering the film on an everyday scenario and we'll continue to examine...",
+          "itunes:summary": "In this episode we discuss the iconic Alfred Hitchcock thriller, Rear Window (1954), starring Jimmy Stewart and Grace Kelly.  We'll breakdown how Hitchcock ramped up the suspense by centering the film on an everyday scenario and we'll continue to examine the importance of romance and trust to Hitchcock's films. \nRear Window is currently #48 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "23:38",
+          "itunes:episode": 28,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Notorious (1946) Ep. 27",
+          "link": "https://www.classicmoviemusts.com/e/notorious-1946-ep-27/",
+          "comments": "https://www.classicmoviemusts.com/e/notorious-1946-ep-27/#comments",
+          "pubDate": "Fri, 12 Oct 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/notorious-1946-ep-27-7085ade8410ebd6401ef964c2cbcac54",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss Alfred Hitchcock's Notorious (1946).  Starring Ingrid Bergman, Cary Grant, and Claude Rains, this film is a trademark example of Hitchcock's ability to balance suspense, romance, and trust to tremendous effect.  Join us for this unforgettable film.</p>",
+          "content:encoded": "<p>In this episode, we discuss Alfred Hitchcock's Notorious (1946).  Starring Ingrid Bergman, Cary Grant, and Claude Rains, this film is a trademark example of Hitchcock's ability to balance suspense, romance, and trust to tremendous effect.  Join us for this unforgettable film.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/cgwexk/Notorious_1946_Ep_27.mp3",
+            "@_length": "40042622",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss Alfred Hitchcock's Notorious (1946).  Starring Ingrid Bergman, Cary Grant, and Claude Rains, this film is a trademark example of Hitchcock's ability to balance suspense, romance, and trust to tremendous effect.  Join us for th...",
+          "itunes:summary": "In this episode, we discuss Alfred Hitchcock's Notorious (1946).  Starring Ingrid Bergman, Cary Grant, and Claude Rains, this film is a trademark example of Hitchcock's ability to balance suspense, romance, and trust to tremendous effect.  Join us for this unforgettable film.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "29:44",
+          "itunes:episode": 27,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The 39 Steps (1935) Ep. 26",
+          "link": "https://www.classicmoviemusts.com/e/the-39-steps-1935-ep-26/",
+          "comments": "https://www.classicmoviemusts.com/e/the-39-steps-1935-ep-26/#comments",
+          "pubDate": "Fri, 05 Oct 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-39-steps-1935-ep-26-b3dc0063a3193fb4628911feaa0feb36",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we kick off Alfred Hitchcock month on Classic Movie Musts with a look at Hitchcock's first undisputed masterpiece The 39 Steps (1935).  Starring Robert Donat and Madeleine Carroll, this \"wrong-man\" thriller established Hitchcock's directorial style.</p>",
+          "content:encoded": "<p>In this episode, we kick off Alfred Hitchcock month on Classic Movie Musts with a look at Hitchcock's first undisputed masterpiece The 39 Steps (1935).  Starring Robert Donat and Madeleine Carroll, this \"wrong-man\" thriller established Hitchcock's directorial style.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/uzf348/The_39_Steps_1935_Ep_26.mp3",
+            "@_length": "35742028",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we kick off Alfred Hitchcock month on Classic Movie Musts with a look at Hitchcock's first undisputed masterpiece The 39 Steps (1935).  Starring Robert Donat and Madeleine Carroll, this \"wrong-man\" thriller established Hitchcock's direct...",
+          "itunes:summary": "In this episode, we kick off Alfred Hitchcock month on Classic Movie Musts with a look at Hitchcock's first undisputed masterpiece The 39 Steps (1935).  Starring Robert Donat and Madeleine Carroll, this \"wrong-man\" thriller established Hitchcock's directorial style.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "26:17",
+          "itunes:episode": 26,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Amadeus (1984) Ep. 25",
+          "link": "https://www.classicmoviemusts.com/e/amadeus-1984-ep-25/",
+          "comments": "https://www.classicmoviemusts.com/e/amadeus-1984-ep-25/#comments",
+          "pubDate": "Fri, 28 Sep 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/amadeus-1984-ep-25-dbabef0c9cfea6a1b9b618f554ba8a89",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss Milos Foreman's Amadeus (1984), starring F. Murray Abraham and Tom Hulce. Despite having the pretensions of a biopic, Amadeus is really a subjective instrospection on the nature of genius.  Nominated for 11 Academy Awards, Amadeus is #53 on AFI's 100 Greatest Movie of All Time.</p>",
+          "content:encoded": "<p>In this episode, we discuss Milos Foreman's Amadeus (1984), starring F. Murray Abraham and Tom Hulce. Despite having the pretensions of a biopic, Amadeus is really a subjective instrospection on the nature of genius.  Nominated for 11 Academy Awards, Amadeus is #53 on AFI's 100 Greatest Movie of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/98qsz2/Amadeus_1984_Ep_25.mp3",
+            "@_length": "36326006",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss Milos Foreman's Amadeus (1984), starring F. Murray Abraham and Tom Hulce. Despite having the pretensions of a biopic, Amadeus is really a subjective instrospection on the nature of genius.  Nominated for 11 Academy Awards, Ama...",
+          "itunes:summary": "In this episode, we discuss Milos Foreman's Amadeus (1984), starring F. Murray Abraham and Tom Hulce. Despite having the pretensions of a biopic, Amadeus is really a subjective instrospection on the nature of genius.  Nominated for 11 Academy Awards, Amadeus is #53 on AFI's 100 Greatest Movie of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "26:57",
+          "itunes:episode": 25,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Stage Door (1937) Ep. 24",
+          "link": "https://www.classicmoviemusts.com/e/stage-door-1937-ep-24/",
+          "comments": "https://www.classicmoviemusts.com/e/stage-door-1937-ep-24/#comments",
+          "pubDate": "Fri, 21 Sep 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/stage-door-1937-ep-24-d78c8dedd016571526b5fd737676ec56",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode we breakdown the classic dramedy Stage Door (1937).  Directed by Gregory LaCava and starring Katherine Hepburn and Ginger Rogers, amongst many other familiar faces, this film is determined by its historical context.  We'll examine how this movie bends the conventions of the screwball comedy, balances comedy and cynicism surrounding the Great Depression, and skirts the Hollywood production code.</p>",
+          "content:encoded": "<p>In this episode we breakdown the classic dramedy Stage Door (1937).  Directed by Gregory LaCava and starring Katherine Hepburn and Ginger Rogers, amongst many other familiar faces, this film is determined by its historical context.  We'll examine how this movie bends the conventions of the screwball comedy, balances comedy and cynicism surrounding the Great Depression, and skirts the Hollywood production code.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/5dntv5/Stage_Door_1937_Ep_24.mp3",
+            "@_length": "30710905",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode we breakdown the classic dramedy Stage Door (1937).  Directed by Gregory LaCava and starring Katherine Hepburn and Ginger Rogers, amongst many other familiar faces, this film is determined by its historical context.  We'll examine how thi...",
+          "itunes:summary": "In this episode we breakdown the classic dramedy Stage Door (1937).  Directed by Gregory LaCava and starring Katherine Hepburn and Ginger Rogers, amongst many other familiar faces, this film is determined by its historical context.  We'll examine how this movie bends the conventions of the screwball comedy, balances comedy and cynicism surrounding the Great Depression, and skirts the Hollywood production code.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "22:27",
+          "itunes:episode": 24,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Long Goodbye (1973) Ep. 23",
+          "link": "https://www.classicmoviemusts.com/e/the-long-goodbye-1973-ep-23/",
+          "comments": "https://www.classicmoviemusts.com/e/the-long-goodbye-1973-ep-23/#comments",
+          "pubDate": "Fri, 14 Sep 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-long-goodbye-1973-ep-23-e7ce7918aa4a2b7992df45310eea8f21",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>This is part two of our look at the evolution of the film noir detective genre.  Today's episode will focus on the modernist film The Long Goodbye (1973), starring Elliott Gould, and examine how director Robert Altman exaggerates genre myths and conventions to appeal to a more analytical audience.</p>",
+          "content:encoded": "<p>This is part two of our look at the evolution of the film noir detective genre.  Today's episode will focus on the modernist film The Long Goodbye (1973), starring Elliott Gould, and examine how director Robert Altman exaggerates genre myths and conventions to appeal to a more analytical audience.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/6ds83g/The_Long_Goodbye_1973_Ep_23.mp3",
+            "@_length": "24054774",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "This is part two of our look at the evolution of the film noir detective genre.  Today's episode will focus on the modernist film The Long Goodbye (1973), starring Elliott Gould, and examine how director Robert Altman exaggerates genre myths and conventi...",
+          "itunes:summary": "This is part two of our look at the evolution of the film noir detective genre.  Today's episode will focus on the modernist film The Long Goodbye (1973), starring Elliott Gould, and examine how director Robert Altman exaggerates genre myths and conventions to appeal to a more analytical audience.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "17:13",
+          "itunes:episode": 23,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Murder, My Sweet (1944) Ep. 22",
+          "link": "https://www.classicmoviemusts.com/e/murder-my-sweet-1944-ep-22/",
+          "comments": "https://www.classicmoviemusts.com/e/murder-my-sweet-1944-ep-22/#comments",
+          "pubDate": "Fri, 07 Sep 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/murder-my-sweet-1944-ep-22-4bd6f9376e1a19ce55ad77c332fa6ede",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>This episode kicks off a two part look into the film noir detective mystery genre.  This week's episode will explore the classical myths, conventions, and iconography associated with this genre as seen in Murder, My Sweet (1944).  Murder, My Sweet was directed by Edward Dmytryk and stars Dick Powell and Claire Trevor.</p>",
+          "content:encoded": "<p>This episode kicks off a two part look into the film noir detective mystery genre.  This week's episode will explore the classical myths, conventions, and iconography associated with this genre as seen in Murder, My Sweet (1944).  Murder, My Sweet was directed by Edward Dmytryk and stars Dick Powell and Claire Trevor.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/746md2/Murder_My_Sweet_1944_Ep_22.mp3",
+            "@_length": "34809649",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "This episode kicks off a two part look into the film noir detective mystery genre.  This week's episode will explore the classical myths, conventions, and iconography associated with this genre as seen in Murder, My Sweet (1944).  Murder, My Sweet was di...",
+          "itunes:summary": "This episode kicks off a two part look into the film noir detective mystery genre.  This week's episode will explore the classical myths, conventions, and iconography associated with this genre as seen in Murder, My Sweet (1944).  Murder, My Sweet was directed by Edward Dmytryk and stars Dick Powell and Claire Trevor.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "25:41",
+          "itunes:episode": 22,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Dr. Strangelove (1964) w/ Special Guest Ian Herrin Ep. 21",
+          "link": "https://www.classicmoviemusts.com/e/dr-strangelove-1964-w-special-guest-ian-herrin-ep-21/",
+          "comments": "https://www.classicmoviemusts.com/e/dr-strangelove-1964-w-special-guest-ian-herrin-ep-21/#comments",
+          "pubDate": "Fri, 31 Aug 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/dr-strangelove-1964-w-special-guest-ian-herrin-ep-21-58e1057cb4eabe0e6523caa35fe5ea11",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, Max is joined by comedian Ian Herrin to discuss the Stanley Kubrick poltical satire, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb.  Starring Peter Sellers in a triumverate of rolls, along with George C. Scott, Sterling Hayden, and Slim Pickens, Dr. Strangelove perfectly captures Cold War fears and takes them to their extreme conclusion.</p>\n<p>Dr. Strangelove is #26 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode, Max is joined by comedian Ian Herrin to discuss the Stanley Kubrick poltical satire, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb.  Starring Peter Sellers in a triumverate of rolls, along with George C. Scott, Sterling Hayden, and Slim Pickens, Dr. Strangelove perfectly captures Cold War fears and takes them to their extreme conclusion.</p>\n<p>Dr. Strangelove is #26 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/qqpznv/Dr_Strangelove_1964_Ep_21.mp3",
+            "@_length": "81112474",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, Max is joined by comedian Ian Herrin to discuss the Stanley Kubrick poltical satire, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb.  Starring Peter Sellers in a triumverate of rolls, along with George C. Scott, Ste...",
+          "itunes:summary": "In this episode, Max is joined by comedian Ian Herrin to discuss the Stanley Kubrick poltical satire, Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb.  Starring Peter Sellers in a triumverate of rolls, along with George C. Scott, Sterling Hayden, and Slim Pickens, Dr. Strangelove perfectly captures Cold War fears and takes them to their extreme conclusion.\nDr. Strangelove is #26 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "01:03:19",
+          "itunes:episode": 21,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The African Queen (1951) Ep. 20",
+          "link": "https://www.classicmoviemusts.com/e/the-african-queen-1951-ep-20/",
+          "comments": "https://www.classicmoviemusts.com/e/the-african-queen-1951-ep-20/#comments",
+          "pubDate": "Fri, 24 Aug 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-african-queen-1951-ep-20-108446710a157805b667e0a4279fae91",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we go down river on The African Queen (1951).  Directed by John Huston, and starring Humphrey Bogart and Katherine Hepburn, this movie deftly balances adventure, romance, and comedy.</p>\n<p>The African Queen is #17 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode, we go down river on The African Queen (1951).  Directed by John Huston, and starring Humphrey Bogart and Katherine Hepburn, this movie deftly balances adventure, romance, and comedy.</p>\n<p>The African Queen is #17 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/79qjba/The_African_Queen_1951_Ep_20.mp3",
+            "@_length": "33553522",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we go down river on The African Queen (1951).  Directed by John Huston, and starring Humphrey Bogart and Katherine Hepburn, this movie deftly balances adventure, romance, and comedy.\nThe African Queen is #17 on AFI's 100 Greatest Movies ...",
+          "itunes:summary": "In this episode, we go down river on The African Queen (1951).  Directed by John Huston, and starring Humphrey Bogart and Katherine Hepburn, this movie deftly balances adventure, romance, and comedy.\nThe African Queen is #17 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "24:35",
+          "itunes:episode": 20,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Malcolm X (1992) Ep. 19",
+          "link": "https://www.classicmoviemusts.com/e/malcolm-x-1992-ep-19/",
+          "comments": "https://www.classicmoviemusts.com/e/malcolm-x-1992-ep-19/#comments",
+          "pubDate": "Fri, 17 Aug 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/malcolm-x-1992-ep-19-39d29ca484de357c6acda1dbabd65166",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss the Spike Lee classic biopic, Malcolm X (1992).  Starring Denzel Washington, this movie foregrounds all the classical elements that define the biopic genre.  In doing so, it makes a controversial activist appealing to mainstream audiences.  </p>",
+          "content:encoded": "<p>In this episode, we discuss the Spike Lee classic biopic, Malcolm X (1992).  Starring Denzel Washington, this movie foregrounds all the classical elements that define the biopic genre.  In doing so, it makes a controversial activist appealing to mainstream audiences.  </p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/tj4bjm/Malcolm_X_1992_Ep_19.mp3",
+            "@_length": "29162526",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss the Spike Lee classic biopic, Malcolm X (1992).  Starring Denzel Washington, this movie foregrounds all the classical elements that define the biopic genre.  In doing so, it makes a controversial activist appealing to mainstre...",
+          "itunes:summary": "In this episode, we discuss the Spike Lee classic biopic, Malcolm X (1992).  Starring Denzel Washington, this movie foregrounds all the classical elements that define the biopic genre.  In doing so, it makes a controversial activist appealing to mainstream audiences.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "21:51",
+          "itunes:episode": 19,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Ox-Bow Incident (1943) Ep. 18",
+          "link": "https://www.classicmoviemusts.com/e/the-ox-bow-incident-1943-ep-18/",
+          "comments": "https://www.classicmoviemusts.com/e/the-ox-bow-incident-1943-ep-18/#comments",
+          "pubDate": "Fri, 10 Aug 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-ox-bow-incident-1943-ep-18-603490cba38015be261055e7d98387b6",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we explore the film noir western, The Ox-Bow Incident (1943), starring Henry Fonda.  This movie is a haunting introspection on the nature of masculinity.  It's also a fascinating glimpse into the pschye of America on the eve of World War II.  This film beautifully and hauntingly combines the themes of the film noir and the icons of the western.</p>",
+          "content:encoded": "<p>In this episode, we explore the film noir western, The Ox-Bow Incident (1943), starring Henry Fonda.  This movie is a haunting introspection on the nature of masculinity.  It's also a fascinating glimpse into the pschye of America on the eve of World War II.  This film beautifully and hauntingly combines the themes of the film noir and the icons of the western.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/skiuxc/The_Ox-Bow_Incident_1943_Ep_18_Take_2.mp3",
+            "@_length": "31566318",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we explore the film noir western, The Ox-Bow Incident (1943), starring Henry Fonda.  This movie is a haunting introspection on the nature of masculinity.  It's also a fascinating glimpse into the pschye of America on the eve of World War...",
+          "itunes:summary": "In this episode, we explore the film noir western, The Ox-Bow Incident (1943), starring Henry Fonda.  This movie is a haunting introspection on the nature of masculinity.  It's also a fascinating glimpse into the pschye of America on the eve of World War II.  This film beautifully and hauntingly combines the themes of the film noir and the icons of the western.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "23:59",
+          "itunes:episode": 18,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Blade Runner (1982) Ep. 17",
+          "link": "https://www.classicmoviemusts.com/e/blade-runner-1982-ep-17/",
+          "comments": "https://www.classicmoviemusts.com/e/blade-runner-1982-ep-17/#comments",
+          "pubDate": "Fri, 03 Aug 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/blade-runner-1982-ep-17-0bf78797b42aa316e8099b4073345b37",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we discuss the science fiction classic, Blade Runner (1982).  Directed by Ridley Scott, and starring Harrison Ford, this film epitomizes the melding of science fiction, film noir, and cyberpunk.  What's more, this film does not appeal to mainstream scifi tendencies, making it all the richer for deep analysis.</p>",
+          "content:encoded": "<p>In this episode, we discuss the science fiction classic, Blade Runner (1982).  Directed by Ridley Scott, and starring Harrison Ford, this film epitomizes the melding of science fiction, film noir, and cyberpunk.  What's more, this film does not appeal to mainstream scifi tendencies, making it all the richer for deep analysis.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/askeut/Blade_Runner_1982_Ep_17.mp3",
+            "@_length": "32378028",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we discuss the science fiction classic, Blade Runner (1982).  Directed by Ridley Scott, and starring Harrison Ford, this film epitomizes the melding of science fiction, film noir, and cyberpunk.  What's more, this film does not appeal to...",
+          "itunes:summary": "In this episode, we discuss the science fiction classic, Blade Runner (1982).  Directed by Ridley Scott, and starring Harrison Ford, this film epitomizes the melding of science fiction, film noir, and cyberpunk.  What's more, this film does not appeal to mainstream scifi tendencies, making it all the richer for deep analysis.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "26:10",
+          "itunes:episode": 17,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Court Jester (1955) Ep. 16",
+          "link": "https://www.classicmoviemusts.com/e/the-court-jester-1955-ep-16/",
+          "comments": "https://www.classicmoviemusts.com/e/the-court-jester-1955-ep-16/#comments",
+          "pubDate": "Fri, 27 Jul 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-court-jester-1955-ep-16-2c2b627d9750b63ecbf7100cfa733da0",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode, we delve into the musical/historical spectacle hybrid, The Court Jester (1955).  Directed by Melvin Frank and Norman Panama, and starring Danny Kaye, Basil Rathbone, and Angela Lansbury.  This film epitomizes an era of genre experimentation and lavish Hollywood spending.</p>",
+          "content:encoded": "<p>In this episode, we delve into the musical/historical spectacle hybrid, The Court Jester (1955).  Directed by Melvin Frank and Norman Panama, and starring Danny Kaye, Basil Rathbone, and Angela Lansbury.  This film epitomizes an era of genre experimentation and lavish Hollywood spending.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/cum2zr/The_Court_Jester_1955_Ep_16.mp3",
+            "@_length": "32281902",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode, we delve into the musical/historical spectacle hybrid, The Court Jester (1955).  Directed by Melvin Frank and Norman Panama, and starring Danny Kaye, Basil Rathbone, and Angela Lansbury.  This film epitomizes an era of genre experimentat...",
+          "itunes:summary": "In this episode, we delve into the musical/historical spectacle hybrid, The Court Jester (1955).  Directed by Melvin Frank and Norman Panama, and starring Danny Kaye, Basil Rathbone, and Angela Lansbury.  This film epitomizes an era of genre experimentation and lavish Hollywood spending.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "24:25",
+          "itunes:episode": 16,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Taxi Driver (1976) Ep. 15",
+          "link": "https://www.classicmoviemusts.com/e/taxi-driver-1976-ep-15/",
+          "comments": "https://www.classicmoviemusts.com/e/taxi-driver-1976-ep-15/#comments",
+          "pubDate": "Fri, 20 Jul 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/taxi-driver-1976-ep-15-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts, we breakdown the iconic film Taxi Driver (1976). Directed by Martin Scorsese and starring Robert De Niro and Cybil Shepard. The film also features Jodi Foster and Harvey Keitel.</p>\n<p>Taxi Driver is #47 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts, we breakdown the iconic film Taxi Driver (1976). Directed by Martin Scorsese and starring Robert De Niro and Cybil Shepard. The film also features Jodi Foster and Harvey Keitel.</p>\n<p>Taxi Driver is #47 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/pr4jp4/Taxi_Driver_1976_Ep_15.mp3",
+            "@_length": "27848363",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts, we breakdown the iconic film Taxi Driver (1976). Directed by Martin Scorsese and starring Robert De Niro and Cybil Shepard. The film also features Jodi Foster and Harvey Keitel.\nTaxi Driver is #47 on AFI's 100 Grea...",
+          "itunes:summary": "In this episode of Classic Movie Musts, we breakdown the iconic film Taxi Driver (1976). Directed by Martin Scorsese and starring Robert De Niro and Cybil Shepard. The film also features Jodi Foster and Harvey Keitel.\nTaxi Driver is #47 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "20:26",
+          "itunes:episode": 15,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "It Happened One Night (1934) Ep. 14",
+          "link": "https://www.classicmoviemusts.com/e/it-happened-one-night-1934-ep-14/",
+          "comments": "https://www.classicmoviemusts.com/e/it-happened-one-night-1934-ep-14/#comments",
+          "pubDate": "Fri, 13 Jul 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/it-happened-one-night-1934-ep-14-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts, we discuss the original screwball comedy It Happened One Night (1934). Directed by Frank Capra and starring Clark Gable and Claudette Colbert.</p>\n<p>It Happened One Night is #35 on AFI's Top 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts, we discuss the original screwball comedy It Happened One Night (1934). Directed by Frank Capra and starring Clark Gable and Claudette Colbert.</p>\n<p>It Happened One Night is #35 on AFI's Top 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/kzdyht/It_Happened_One_Night_1934_Ep_14.mp3",
+            "@_length": "29261915",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts, we discuss the original screwball comedy It Happened One Night (1934). Directed by Frank Capra and starring Clark Gable and Claudette Colbert.\nIt Happened One Night is #35 on AFI's Top 100 Greatest Movies of All Ti...",
+          "itunes:summary": "In this episode of Classic Movie Musts, we discuss the original screwball comedy It Happened One Night (1934). Directed by Frank Capra and starring Clark Gable and Claudette Colbert.\nIt Happened One Night is #35 on AFI's Top 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "21:20",
+          "itunes:episode": 14,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Lawrence of Arabia (1962) Ep. 13",
+          "link": "https://www.classicmoviemusts.com/e/lawrence-of-arabia-1962-ep-13/",
+          "comments": "https://www.classicmoviemusts.com/e/lawrence-of-arabia-1962-ep-13/#comments",
+          "pubDate": "Fri, 06 Jul 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/lawrence-of-arabia-1962-ep-13-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts we break down the epic adventure Lawrence of Arabia (1962). Directed by David Lean and starring Peter O'Toole, the film also features Alec Guinness, Anthony Quinn, Omar Sharif, and Claude Rains.</p>\n<p>Lawrence of Arabia is #5 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts we break down the epic adventure Lawrence of Arabia (1962). Directed by David Lean and starring Peter O'Toole, the film also features Alec Guinness, Anthony Quinn, Omar Sharif, and Claude Rains.</p>\n<p>Lawrence of Arabia is #5 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/tstjf7/Lawrence_of_Arabia_1962_Ep_13.mp3",
+            "@_length": "26970142",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts we break down the epic adventure Lawrence of Arabia (1962). Directed by David Lean and starring Peter O'Toole, the film also features Alec Guinness, Anthony Quinn, Omar Sharif, and Claude Rains.\nLawrence of Arabia i...",
+          "itunes:summary": "In this episode of Classic Movie Musts we break down the epic adventure Lawrence of Arabia (1962). Directed by David Lean and starring Peter O'Toole, the film also features Alec Guinness, Anthony Quinn, Omar Sharif, and Claude Rains.\nLawrence of Arabia is #5 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "25:22",
+          "itunes:episode": 13,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "White Heat (1949) Ep. 12",
+          "link": "https://www.classicmoviemusts.com/e/white-heat-1949-ep-12/",
+          "comments": "https://www.classicmoviemusts.com/e/white-heat-1949-ep-12/#comments",
+          "pubDate": "Fri, 29 Jun 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/white-heat-1949-ep-12-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts we taken in the epic culmination of the classic gangster film, White Heat (1949). Directed by Raoul Walsh and featuring and iconic performance by Jame Cagney.</p>\n<p>White Heat is #4 on AFI's Top Gangster Films.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts we taken in the epic culmination of the classic gangster film, White Heat (1949). Directed by Raoul Walsh and featuring and iconic performance by Jame Cagney.</p>\n<p>White Heat is #4 on AFI's Top Gangster Films.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/w9usje/White_Heat_1949_Ep_12.mp3",
+            "@_length": "23021255",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts we taken in the epic culmination of the classic gangster film, White Heat (1949). Directed by Raoul Walsh and featuring and iconic performance by Jame Cagney.\nWhite Heat is #4 on AFI's Top Gangster Films.",
+          "itunes:summary": "In this episode of Classic Movie Musts we taken in the epic culmination of the classic gangster film, White Heat (1949). Directed by Raoul Walsh and featuring and iconic performance by Jame Cagney.\nWhite Heat is #4 on AFI's Top Gangster Films.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "21:16",
+          "itunes:episode": 12,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Two For The Road (1967) Ep. 11",
+          "link": "https://www.classicmoviemusts.com/e/two-for-the-road-1967-ep-11/",
+          "comments": "https://www.classicmoviemusts.com/e/two-for-the-road-1967-ep-11/#comments",
+          "pubDate": "Fri, 22 Jun 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/two-for-the-road-1967-ep-11-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts we discuss the Audrey Hepburn classic Two for the Road (1967).  Directed by Stanley Donen, the film also stars Albert Finney.  This movie must is an introspection on marriage and time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts we discuss the Audrey Hepburn classic Two for the Road (1967).  Directed by Stanley Donen, the film also stars Albert Finney.  This movie must is an introspection on marriage and time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/y33kfz/Two_for_the_Road_1967_Ep_11.mp3",
+            "@_length": "19335697",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts we discuss the Audrey Hepburn classic Two for the Road (1967).  Directed by Stanley Donen, the film also stars Albert Finney.  This movie must is an introspection on marriage and time.",
+          "itunes:summary": "In this episode of Classic Movie Musts we discuss the Audrey Hepburn classic Two for the Road (1967).  Directed by Stanley Donen, the film also stars Albert Finney.  This movie must is an introspection on marriage and time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "17:25",
+          "itunes:episode": 11,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "All About Eve (1950) Ep. 10",
+          "link": "https://www.classicmoviemusts.com/e/all-about-eve-1950-ep-10/",
+          "comments": "https://www.classicmoviemusts.com/e/all-about-eve-1950-ep-10/#comments",
+          "pubDate": "Fri, 15 Jun 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/all-about-eve-1950-ep-10-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts we take on the classic drama All About Eve (1950), starring Bette Davis and Anne Baxter.</p>\n<p>All About Eve is #16 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts we take on the classic drama All About Eve (1950), starring Bette Davis and Anne Baxter.</p>\n<p>All About Eve is #16 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/akrnh5/All_About_Eve_1950_Ep_10.mp3",
+            "@_length": "20122704",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts we take on the classic drama All About Eve (1950), starring Bette Davis and Anne Baxter.\nAll About Eve is #16 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:summary": "In this episode of Classic Movie Musts we take on the classic drama All About Eve (1950), starring Bette Davis and Anne Baxter.\nAll About Eve is #16 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "18:14",
+          "itunes:episode": 10,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Apocalypse Now (1979) Ep. 9",
+          "link": "https://www.classicmoviemusts.com/e/apocalypse-now-1979-ep-9/",
+          "comments": "https://www.classicmoviemusts.com/e/apocalypse-now-1979-ep-9/#comments",
+          "pubDate": "Fri, 08 Jun 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/apocalypse-now-1979-ep-9-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts, special guest Ignacio Garat joins to discuss the Francis Ford Coppola Vietnam War epic, Apocalypse Now (1979). Apocalypse Now stars Martin Sheen and Marlon Brando.</p>\n<p>Apocalypse Now is #28 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts, special guest Ignacio Garat joins to discuss the Francis Ford Coppola Vietnam War epic, Apocalypse Now (1979). Apocalypse Now stars Martin Sheen and Marlon Brando.</p>\n<p>Apocalypse Now is #28 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/pnv2gz/Apocalypse_Now_1979_Ep_9.mp3",
+            "@_length": "39718304",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts, special guest Ignacio Garat joins to discuss the Francis Ford Coppola Vietnam War epic, Apocalypse Now (1979). Apocalypse Now stars Martin Sheen and Marlon Brando.\nApocalypse Now is #28 on AFI's 100 Greatest Movies...",
+          "itunes:summary": "In this episode of Classic Movie Musts, special guest Ignacio Garat joins to discuss the Francis Ford Coppola Vietnam War epic, Apocalypse Now (1979). Apocalypse Now stars Martin Sheen and Marlon Brando.\nApocalypse Now is #28 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "38:39",
+          "itunes:episode": 9,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Meet Me in St. Louis (1944) Ep. 8",
+          "link": "https://www.classicmoviemusts.com/e/meet-me-in-st-louis-1944-ep-8/",
+          "comments": "https://www.classicmoviemusts.com/e/meet-me-in-st-louis-1944-ep-8/#comments",
+          "pubDate": "Fri, 01 Jun 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/meet-me-in-st-louis-1944-ep-8-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of classic movie musts we sing the praises of the classic musical Meet Me in St. Louis (1944).  Directed by Vincente Minnelli and starring Judy Garland, this movies marks the ascendancy of the integrated movie musical.</p>",
+          "content:encoded": "<p>In this episode of classic movie musts we sing the praises of the classic musical Meet Me in St. Louis (1944).  Directed by Vincente Minnelli and starring Judy Garland, this movies marks the ascendancy of the integrated movie musical.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/gwvkpw/Meet_Me_in_St_Louis_1944_Ep_8.mp3",
+            "@_length": "22487106",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of classic movie musts we sing the praises of the classic musical Meet Me in St. Louis (1944).  Directed by Vincente Minnelli and starring Judy Garland, this movies marks the ascendancy of the integrated movie musical.",
+          "itunes:summary": "In this episode of classic movie musts we sing the praises of the classic musical Meet Me in St. Louis (1944).  Directed by Vincente Minnelli and starring Judy Garland, this movies marks the ascendancy of the integrated movie musical.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "20:42",
+          "itunes:episode": 8,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "A Place in the Sun (1951) Ep. 7",
+          "link": "https://www.classicmoviemusts.com/e/a-place-in-the-sun-1951-ep-7/",
+          "comments": "https://www.classicmoviemusts.com/e/a-place-in-the-sun-1951-ep-7/#comments",
+          "pubDate": "Fri, 25 May 2018 07:56:56 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/a-place-in-the-sun-1951-ep-7-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts we tackle the classic tragic romance, A Place in the Sun (1951). The film was directed by George Stevens and stars Montgomery Clift, Elizabeth Taylor, and Shelley Winters.</p>\n<p>A Place in the Sun ranks #92 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts we tackle the classic tragic romance, A Place in the Sun (1951). The film was directed by George Stevens and stars Montgomery Clift, Elizabeth Taylor, and Shelley Winters.</p>\n<p>A Place in the Sun ranks #92 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/8mvrhj/A_Place_in_the_Sun_1951_Ep_7.mp3",
+            "@_length": "22436949",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts we tackle the classic tragic romance, A Place in the Sun (1951). The film was directed by George Stevens and stars Montgomery Clift, Elizabeth Taylor, and Shelley Winters.\nA Place in the Sun ranks #92 on AFI's 100 G...",
+          "itunes:summary": "In this episode of Classic Movie Musts we tackle the classic tragic romance, A Place in the Sun (1951). The film was directed by George Stevens and stars Montgomery Clift, Elizabeth Taylor, and Shelley Winters.\nA Place in the Sun ranks #92 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "20:39",
+          "itunes:episode": 7,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Big Lebowski (1998) Ep. 6 w/ Special Guest David Zabriskie",
+          "link": "https://www.classicmoviemusts.com/e/the-big-lebowski-1998-ep-6-w-special-guest-david-zabriskie/",
+          "comments": "https://www.classicmoviemusts.com/e/the-big-lebowski-1998-ep-6-w-special-guest-david-zabriskie/#comments",
+          "pubDate": "Fri, 18 May 2018 07:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-big-lebowski-1998-ep-6-w-special-guest-david-zabriskie-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts, retired professional cyclist David Zabriskie joins to discuss the cult classic, The Big Lebowski (1998).  Directed by the Coen brothers and starring Jeff Bridges and John Goodman.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts, retired professional cyclist David Zabriskie joins to discuss the cult classic, The Big Lebowski (1998).  Directed by the Coen brothers and starring Jeff Bridges and John Goodman.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/drte6m/The_Big_Lebowski_1998_Ep_6.mp3",
+            "@_length": "35640696",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts, retired professional cyclist David Zabriskie joins to discuss the cult classic, The Big Lebowski (1998).  Directed by the Coen brothers and starring Jeff Bridges and John Goodman.",
+          "itunes:summary": "In this episode of Classic Movie Musts, retired professional cyclist David Zabriskie joins to discuss the cult classic, The Big Lebowski (1998).  Directed by the Coen brothers and starring Jeff Bridges and John Goodman.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "Yes",
+          "itunes:block": "No",
+          "itunes:duration": "34:24",
+          "itunes:episode": 6,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Jaws (1975) Ep. 5",
+          "link": "https://www.classicmoviemusts.com/e/jaws-1975-ep-5/",
+          "comments": "https://www.classicmoviemusts.com/e/jaws-1975-ep-5/#comments",
+          "pubDate": "Fri, 11 May 2018 08:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/jaws-1975-ep-5-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts, we brave the Steven Spielberg horror classic, Jaws (1975). Jaws stars Roy Scheider, Richard Dreyfus, and Robert Shaw.</p>\n<p>Jaws is #48 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts, we brave the Steven Spielberg horror classic, Jaws (1975). Jaws stars Roy Scheider, Richard Dreyfus, and Robert Shaw.</p>\n<p>Jaws is #48 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/5v85e6/Jaws_1975_Ep_5.mp3",
+            "@_length": "19693033",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts, we brave the Steven Spielberg horror classic, Jaws (1975). Jaws stars Roy Scheider, Richard Dreyfus, and Robert Shaw.\nJaws is #48 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:summary": "In this episode of Classic Movie Musts, we brave the Steven Spielberg horror classic, Jaws (1975). Jaws stars Roy Scheider, Richard Dreyfus, and Robert Shaw.\nJaws is #48 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "17:48",
+          "itunes:episode": 5,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Stagecoach (1939) Ep. 4",
+          "link": "https://www.classicmoviemusts.com/e/stagecoach-1939-ep-4/",
+          "comments": "https://www.classicmoviemusts.com/e/stagecoach-1939-ep-4/#comments",
+          "pubDate": "Fri, 04 May 2018 08:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/stagecoach-1939-ep-4-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts we saddle up for the classic John Ford western Stagecoach (1939), the breakout film for John Wayne.</p>\n<p>Stagecoach is #63 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts we saddle up for the classic John Ford western Stagecoach (1939), the breakout film for John Wayne.</p>\n<p>Stagecoach is #63 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/tfpd8m/Stagecoach_1939_Ep_4.mp3",
+            "@_length": "22087110",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts we saddle up for the classic John Ford western Stagecoach (1939), the breakout film for John Wayne.\nStagecoach is #63 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:summary": "In this episode of Classic Movie Musts we saddle up for the classic John Ford western Stagecoach (1939), the breakout film for John Wayne.\nStagecoach is #63 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "20:17",
+          "itunes:episode": 4,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Some Like it Hot (1959) Ep. 3",
+          "link": "https://www.classicmoviemusts.com/e/some-like-it-hot-1959-ep-3/",
+          "comments": "https://www.classicmoviemusts.com/e/some-like-it-hot-1959-ep-3/#comments",
+          "pubDate": "Fri, 27 Apr 2018 10:13:14 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/some-like-it-hot-1959-ep-3-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts, we laugh our way through the comedy masterpiece Some Like It Hot (1959), starring Marilyn Monroe, Tony Curtis, and Jack Lemmon.</p>\n<p>Some Like it Hot is #14 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts, we laugh our way through the comedy masterpiece Some Like It Hot (1959), starring Marilyn Monroe, Tony Curtis, and Jack Lemmon.</p>\n<p>Some Like it Hot is #14 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/3g467g/Some_Like_It_Hot_1959_Ep_3.mp3",
+            "@_length": "25058387",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts, we laugh our way through the comedy masterpiece Some Like It Hot (1959), starring Marilyn Monroe, Tony Curtis, and Jack Lemmon.\nSome Like it Hot is #14 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:summary": "In this episode of Classic Movie Musts, we laugh our way through the comedy masterpiece Some Like It Hot (1959), starring Marilyn Monroe, Tony Curtis, and Jack Lemmon.\nSome Like it Hot is #14 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "23:23",
+          "itunes:episode": 3,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "The Maltese Falcon (1941) Ep. 2",
+          "link": "https://www.classicmoviemusts.com/e/the-maltese-falcon-1941-ep-2/",
+          "comments": "https://www.classicmoviemusts.com/e/the-maltese-falcon-1941-ep-2/#comments",
+          "pubDate": "Fri, 27 Apr 2018 10:10:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/the-maltese-falcon-1941-ep-2-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this epsiode of Classic Movie Musts, we wade into the murky waters of film noir with the Humphrey Bogart classic, The Maltese Falcon (1941). Join us as we examine what makes this such a seminal film.</p>\n<p>The Maltese Falcon is #23 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this epsiode of Classic Movie Musts, we wade into the murky waters of film noir with the Humphrey Bogart classic, The Maltese Falcon (1941). Join us as we examine what makes this such a seminal film.</p>\n<p>The Maltese Falcon is #23 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/h4gkes/The_Maltese_Falcon_1941_Ep_2.mp3",
+            "@_length": "22754109",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this epsiode of Classic Movie Musts, we wade into the murky waters of film noir with the Humphrey Bogart classic, The Maltese Falcon (1941). Join us as we examine what makes this such a seminal film.\nThe Maltese Falcon is #23 on AFI's 100 Greatest Mov...",
+          "itunes:summary": "In this epsiode of Classic Movie Musts, we wade into the murky waters of film noir with the Humphrey Bogart classic, The Maltese Falcon (1941). Join us as we examine what makes this such a seminal film.\nThe Maltese Falcon is #23 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "20:59",
+          "itunes:episode": 2,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Singin' in the Rain (1952) Ep. 1",
+          "link": "https://www.classicmoviemusts.com/e/singin-in-the-rain-1952-ep-1/",
+          "comments": "https://www.classicmoviemusts.com/e/singin-in-the-rain-1952-ep-1/#comments",
+          "pubDate": "Fri, 27 Apr 2018 10:00:00 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/singin-in-the-rain-1952-ep-1-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>In this episode of Classic Movie Musts, we explore the iconic musical Singin' in the Rain (1952) and discuss what makes it an absolute movie must. Directed by Stanley Donen and starring Gene Kelly and Debbie Reynolds.</p>\n<p>Singin' in the Rain is #10 on AFI's 100 Greatest Movies of All Time.</p>",
+          "content:encoded": "<p>In this episode of Classic Movie Musts, we explore the iconic musical Singin' in the Rain (1952) and discuss what makes it an absolute movie must. Directed by Stanley Donen and starring Gene Kelly and Debbie Reynolds.</p>\n<p>Singin' in the Rain is #10 on AFI's 100 Greatest Movies of All Time.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/7kw7yc/Singin_in_the_Rain_1952_Ep_1.mp3",
+            "@_length": "20598751",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "In this episode of Classic Movie Musts, we explore the iconic musical Singin' in the Rain (1952) and discuss what makes it an absolute movie must. Directed by Stanley Donen and starring Gene Kelly and Debbie Reynolds.\nSingin' in the Rain is #10 on AFI's ...",
+          "itunes:summary": "In this episode of Classic Movie Musts, we explore the iconic musical Singin' in the Rain (1952) and discuss what makes it an absolute movie must. Directed by Stanley Donen and starring Gene Kelly and Debbie Reynolds.\nSingin' in the Rain is #10 on AFI's 100 Greatest Movies of All Time.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "18:44",
+          "itunes:episode": 1,
+          "itunes:episodeType": "full",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        },
+        {
+          "title": "Classic Movie Musts Trailer",
+          "link": "https://www.classicmoviemusts.com/e/classic-movie-musts-trailer/",
+          "comments": "https://www.classicmoviemusts.com/e/classic-movie-musts-trailer/#comments",
+          "pubDate": "Sat, 21 Apr 2018 13:29:55 -0700",
+          "guid": {
+            "#text": "classicmoviemusts.podbean.com/classic-movie-musts-trailer-24b00f90dd1700f333f1ee8f1a4eedd1",
+            "@_isPermaLink": "false"
+          },
+          "description": "<p>This is the trailer for the new weekly movie podcast, Classic Movie Musts.  Every episode will explore a different classic film and discuss what makes it a movie must.  New episodes post every Friday.</p>",
+          "content:encoded": "<p>This is the trailer for the new weekly movie podcast, Classic Movie Musts.  Every episode will explore a different classic film and discuss what makes it a movie must.  New episodes post every Friday.</p>",
+          "enclosure": {
+            "@_url": "https://mcdn.podbean.com/mf/web/a82pap/Classic_Movie_Musts_Trailer.mp3",
+            "@_length": "5367069",
+            "@_type": "audio/mpeg"
+          },
+          "itunes:subtitle": "This is the trailer for the new weekly movie podcast, Classic Movie Musts.  Every episode will explore a different classic film and discuss what makes it a movie must.  New episodes post every Friday.",
+          "itunes:summary": "This is the trailer for the new weekly movie podcast, Classic Movie Musts.  Every episode will explore a different classic film and discuss what makes it a movie must.  New episodes post every Friday.",
+          "itunes:author": "Classic Movie Musts",
+          "itunes:explicit": "No",
+          "itunes:block": "No",
+          "itunes:duration": "02:52",
+          "itunes:episodeType": "trailer",
+          "itunes:image": {
+            "@_href": "https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog2545391/Max_Baril_-_Classic_Movie_Musts_Album_Art_v1_-_Small.jpg"
+          }
+        }
+      ]
+    }
+  }
+}
