@@ -24,6 +24,10 @@
           "samples": []
         },
         {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
           "name": "AMAZON.StartOverIntent",
           "samples": []
         },

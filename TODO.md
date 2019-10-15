@@ -15,7 +15,7 @@
 - [ ] Add dashbot
 
 # For audioplayer
-- [ ] Add podcast
+- [X] Add podcast
 - [ ] Add play intent
 - [ ] Add pause and resume intents for audioplayer
 - [ ] Update playback metadata

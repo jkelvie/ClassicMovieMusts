@@ -2,6 +2,7 @@
     "handler": "lib/index.js",
     "trace": false,
     "jest": {
+      "collectCoverage": true,
       "collectCoverageFrom": ["lib/*.js"],
       "coveragePathIgnorePatterns": [
         "<rootDir>/data"
