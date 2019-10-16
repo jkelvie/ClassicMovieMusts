@@ -12,6 +12,7 @@
 - [X] Use dynamic entities
 - [X] Add synonyms to airtable
 - [ ] Update skill description
+- [X] Test pause and resume
 - [ ] Get recording of intro from max
 - [ ] Add dashbot
 
