@@ -14,6 +14,8 @@ configuration:
   - response.directives[0].playBehavior: REPLACE_ALL
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
   - response.directives[0].audioItem.stream.token: 28
+- AudioPlayer.PlaybackNearlyFinished:
+  - response.outputSpeech: undefined
 - AMAZON.PauseIntent:
   - response.directives[0].type: AudioPlayer.Stop
 - AudioPlayer.PlaybackStopped:
@@ -64,3 +66,11 @@ configuration:
 - test: unsupported intents
 - AMAZON.ShuffleOnIntent: Sorry, the shuffle feature is not supported at this time
 - AMAZON.LoopOnIntent: Sorry, the loop feature is not supported at this time
+
+---
+- test: Handles system exception
+- SessionEndedRequest:
+  - request.request.type: System.ExceptionEncountered
+  - request.request.error.type: "ErrorType"
+  - request.request.error.message: "Error Message"
+  - response.outputSpeech: undefined
