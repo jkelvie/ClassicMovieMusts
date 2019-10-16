@@ -77,6 +77,17 @@
           ]
         },
         {
+          "name": "PlayThisIntent",
+          "samples": [
+            "play it",
+            "play this one",
+            "play this",
+            "listen",
+            "listen to this one",
+            "listen to it"
+          ]
+        },
+        {
           "name": "QuizIntent",
           "samples": [
             "start a quiz",
