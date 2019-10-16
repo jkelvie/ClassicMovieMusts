@@ -46,7 +46,6 @@ configuration:
 - LaunchRequest
 - AMAZON.StopIntent: Thank you for playing the Classic Movie Musts Quiz Game
 
-
 ---
 - test: Dynamic entities
 - LaunchRequest
