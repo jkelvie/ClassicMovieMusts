@@ -11,6 +11,7 @@
 # For submission
 - [X] Use dynamic entities
 - [X] Add synonyms to airtable
+- [ ] Update skill description
 - [ ] Get recording of intro from max
 - [ ] Add dashbot
 
@@ -25,6 +26,9 @@
 - [X] Add query about what movie do you want at the start?
 - [X] Add play latest episode
 - [ ] Add question to playback related episode
+
+# Hygiene
+- [ ] Don't replace URL/lambda configuration when updating dev
 
 # For future
 - [ ] Add images optionally per question?
