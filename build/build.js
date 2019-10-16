@@ -1,10 +1,16 @@
-if (process.argv.length < 3) {
-    console.log("Must provide the environment name - dev or prod");
-}
-console.log(`Using environment: ${process.argv[2]}`);
-
-require("dotenv").config({ path: `${process.argv[2]}.env` });
+const _ = require("lodash");
+const fs = require("fs");
 const shelljs = require("shelljs");
+
+const environment = _.nth(process.argv, 2);
+if (!environment || !_.includes(["dev", "prod"], environment)) {
+    console.log("Must provide the environment name as the first argument - dev or prod");
+    process.exit(1);
+}
+console.log(`Using environment: ${environment}`);
+
+require("dotenv").config({ path: `${environment}.env` });
+const useLocalProxy = process.env.FUNCTION_NAME.startsWith("https");
 
 if (process.env.CLEAN) {
     shelljs.rm("-rf", "target");
@@ -31,6 +37,15 @@ shelljs.cp("-f", "../skill.json", "target");
 shelljs.sed("-i", "FUNCTION_NAME", process.env.FUNCTION_NAME, "target/skill.json");
 shelljs.sed("-i", "SKILL_NAME", process.env.SKILL_NAME, "target/skill.json");
 
+// Do custom stuff with the JSON of the skill file
+const skillJSON = JSON.parse(fs.readFileSync("target/skill.json"));
+if (useLocalProxy) {
+    skillJSON.manifest.apis.custom.endpoint = {};
+    skillJSON.manifest.apis.custom.endpoint.uri = process.env.FUNCTION_NAME;
+    skillJSON.manifest.apis.custom.endpoint.sslCertificateType = "Wildcard";
+}
+fs.writeFileSync("target/skill.json", JSON.stringify(skillJSON, null, 2));
+
 // Copy all the other files we need
 shelljs.cp("../package.json", "target/");
 shelljs.cp("-r", "../lib", "target/");
@@ -41,5 +56,11 @@ shelljs.pushd("target");
 shelljs.exec("npm install --only=prod");
 
 // Run the deployment
-shelljs.exec("ask deploy --force");
+if (useLocalProxy) {
+    // If we are using the bst proxy, just deploy the model and skill
+    shelljs.exec("ask deploy -t skill --force");
+    shelljs.exec("ask deploy -t model --force");
+} else {
+    shelljs.exec("ask deploy --force");
+}
 
