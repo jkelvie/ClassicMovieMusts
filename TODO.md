@@ -13,6 +13,7 @@
 - [X] Add synonyms to airtable
 - [ ] Update skill description
 - [X] Test pause and resume
+- [X] Say the name of the podcast to listen to after trivia question
 - [ ] Get recording of intro from max
 - [ ] Add dashbot
 

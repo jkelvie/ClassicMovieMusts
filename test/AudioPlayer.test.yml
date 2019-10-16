@@ -54,13 +54,14 @@ configuration:
 - test: Answer question and play episode
 - LaunchRequest: Welcome to Classic Movie Musts
 - QuizIntent: Great - here is your first question. Who did Spike Lee originally ask to play Danny Aiello's part in the movie Do The Right Thing?
-- AnswerIntent QuizAnswer="Robert De Niro": Robert De Niro is correct. Your current score is 1 out of 1. Do you want to answer another question? Say yes or no, or say listen to listen to this podcast.
+- AnswerIntent QuizAnswer="Robert De Niro": Robert De Niro is correct.
 - PlayThisIntent:
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].playBehavior: REPLACE_ALL
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
   - response.directives[0].audioItem.stream.token: 52
-- AMAZON.StopIntent
+- AMAZON.StopIntent:
+  - response.directives[0].type: "AudioPlayer.Stop"
   
 ---
 - test: unsupported intents
