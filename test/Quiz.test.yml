@@ -64,4 +64,9 @@ configuration:
 - test: Random answer intent
 - AnswerIntent: Sorry I did not understand
   
+---
+- test: Force error
+- LaunchRequest:
+  - request.forceError: "Error message"
+  - response.outputSpeech.ssml: "I did not understand"
   

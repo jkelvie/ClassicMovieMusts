@@ -34,9 +34,11 @@
 # Hygiene
 - [X] Don't replace URL/lambda configuration when updating dev
 - [ ] Add alerts for exceptions in cloudwatch
+- [ ] Add automated deployment
+- [ ] Update README with overview info
 
 # For future
 - [ ] Add images optionally per question?
 - [ ] Add Max's voice
-- [ ] Update README with overview info
+
 
