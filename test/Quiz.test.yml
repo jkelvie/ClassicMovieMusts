@@ -7,7 +7,14 @@ configuration:
 - test: Complete Game Test
 - LaunchRequest: Welcome to Classic Movie Musts
 - QuizIntent: Great - here is your first question. Who did Spike Lee originally ask to play Danny Aiello's part in the movie Do The Right Thing?
-- AnswerIntent QuizAnswer="Robert De Niro": Robert De Niro is correct. Your current score is 1 out of 1. Do you want to answer another question? Say yes or no, or say listen to hear episode 52 on Do The Right Thing.
+- AnswerIntent QuizAnswer="Bob De Niro": # Make sure we are getting the right entity
+  - request.request.intent.slots.QuizAnswer.resolutions.resolutionsPerAuthority[0].authority: "Authority"
+  - request.request.intent.slots.QuizAnswer.resolutions.resolutionsPerAuthority[0].status.code: "ER_SUCCESS_NO_MATCH"
+  - request.request.intent.slots.QuizAnswer.resolutions.resolutionsPerAuthority[1].authority: "Authority"
+  - request.request.intent.slots.QuizAnswer.resolutions.resolutionsPerAuthority[1].status.code: "ER_SUCCESS_MATCH"
+  - request.request.intent.slots.QuizAnswer.resolutions.resolutionsPerAuthority[1].values[0].value.name: "Robert De Niro"
+  - request.request.intent.slots.QuizAnswer.resolutions.resolutionsPerAuthority[1].values[0].value.id: "RobertDeNiro"
+  - response.outputSpeech.ssml: Robert De Niro is correct. Your current score is 1 out of 1. Do you want to answer another question? Say yes or no, or say listen to hear episode 52 on Do The Right Thing.
 - AMAZON.YesIntent: What movie was The Killing an unofficial sequel too, with some of the same actors and similar characters?
 - AnswerIntent QuizAnswer="Concrete Jungle": Concrete Jungle is not correct. The correct answer is The Asphalt Jungle. Your current score is 1 out of 2. Do you want to answer another question?
 - AMAZON.YesIntent: The Last Picture Show was based on a book by what author?

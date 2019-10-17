@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "C:\\Program Files\\nodejs\\node_modules\\bespoken-tools\\bin\\bst-test.js",
-            "args": ["test/UnitTest.yml"],
+            "args": ["Quiz"],
             "env": {
                 "AIRTABLE_API_KEY": "keyy2IVa6SkjA4Mb9"
             }
