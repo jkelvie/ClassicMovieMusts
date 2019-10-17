@@ -8,6 +8,10 @@
           "samples": []
         },
         {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
           "name": "AMAZON.HelpIntent",
           "samples": []
         },

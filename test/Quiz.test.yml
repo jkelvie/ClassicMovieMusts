@@ -28,7 +28,7 @@ configuration:
 ---
 - test: Help
 - LaunchRequest
-- AMAZON.HelpIntent: Say play trivia, play latest, or play with a movie name
+- AMAZON.HelpIntent: You can say play trivia, play latest, or play with a movie name - such as play rear window
 
 ---
 - test: When QuizIntent is fired for an answer, it is handled correctly
@@ -55,6 +55,13 @@ configuration:
   - response.directives[0].types[0].values[0].name.value: Robert De Niro
   - response.directives[0].types[0].values[0].name.synonyms[0]: Bob De Niro
   - response.directives[0].types[0].values[0].name.synonyms[1]: Robert Deniro
-  
+
+---
+- test: Random play this intent
+- PlayThisIntent: I did not understand - what podcast would you like to listen to?
+
+---
+- test: Random answer intent
+- AnswerIntent: Sorry I did not understand
   
   
