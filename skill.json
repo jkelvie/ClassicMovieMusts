@@ -30,11 +30,12 @@
           "name": "SKILL_NAME",
           "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/482d/d630844cf0b849feac817b5d70b9fa80/APP_ICON?versionId=ZjY60bocLigZTcbPZHxUWH8xevYLccvi&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190519T011305Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190519%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fa418464e8fa75cce944d7df06c38546924a754679b4368982f385fbcba47cd5",
           "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/9ff7/6ae65f9c71964b07b277c0797c5e9f3a/APP_ICON_LARGE?versionId=dH5pafBbvp5wlS3ViGtZWWZS9usDK9W.&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190519T011305Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190519%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8831f50fbdd7c2788b22221e921c45723ade1107ce708df4a38b83d6437fb99c",
-          "summary": "Play a fun trivia game with questions inspired by the Classic Movie Musts podcasts - and listen to all the podcasts! Keep up with your classics!",
-          "description": "Test your knowledge of classic movies.\n\nClassic Movie Musts asks you questions based on the Classic Movie Must podcast.\n\nTo start, just say \"Alexa, launch Classic Movie Musts\" or \"Alexa, open Classic Movie Musts\" to start the game\".\n\nAt anytime, you can stop the game by saying \"Alexa, stop\"\n\nListen to the latest episode by saying \"Play latest\" or listen to a specific episode by saying \"Play MOVIE NAME\" such as \"Play rear window\"",
+          "summary": "Classic Movie Musts on Alexa - listen to all the episodes and play a fun trivia game inspired by the show.",
+          "description": "Listen to your favorite movie podcast and test your knowledge of classic movies.\n\nClassic Movie Musts asks you questions based on the Classic Movie Must podcast (https://www.classicmoviemusts.com/)\n\nTo start, just say \"Alexa, launch Classic Movie Musts\" or \"Alexa, open Classic Movie Musts\" - you can then play trivia, play the latest episode, or listen to an episode by name (\"play rear window\").\n\nAt anytime, you can exit by saying \"Alexa, stop\"",
           "examplePhrases": [
             "Alexa, open classic movie musts",
-            "Alexa, play classic movie musts"
+            "play trivia",
+            "play the latest episode"
           ],
           "keywords": [
             "quiz",
@@ -44,12 +45,13 @@
             "film",
             "classics",
             "podcast"
-          ]
+          ],
+          "updatesDescription": "Clearer, more complete description and updated skill category"
         }
       },
       "isAvailableWorldwide": true,
       "testingInstructions": "Launch the skill and say play trivia to answer questions. Answer as many as you like.\n\nYou can also listen to the latest podcast by saying play latest or a specific podcast by saying 'play rear window'",
-      "category": "KNOWLEDGE_AND_TRIVIA",
+      "category": "PODCAST",
       "distributionCountries": []
     }
   }
