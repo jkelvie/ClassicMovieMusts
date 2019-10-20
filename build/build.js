@@ -4,10 +4,19 @@ const shelljs = require("shelljs");
 
 const environment = _.nth(process.argv, 2);
 if (!environment || !_.includes(["dev", "prod"], environment)) {
-    console.log("Must provide the environment name as the first argument - dev or prod");
+    console.error("Must provide the environment name as the first argument - dev or prod");
     process.exit(1);
 }
 console.log(`Using environment: ${environment}`);
+
+const target = _.nth(process.argv, 3);
+if (target) {
+    if (!_.includes(["lambda", "model", "skill"], target)) {
+        console.error("Target must be one of: lambda, model, skill");
+        process.exit(1);
+    }
+    console.log(`Building only for: ${target}`);
+}
 
 require("dotenv").config({ path: `${environment}.env` });
 const useLocalProxy = process.env.FUNCTION_NAME.startsWith("https");
@@ -56,7 +65,9 @@ shelljs.pushd("target");
 shelljs.exec("npm install --only=prod");
 
 // Run the deployment
-if (useLocalProxy) {
+if (target) {
+    shelljs.exec(`ask deploy -t ${target} --force`);
+} else if (useLocalProxy) {
     // If we are using the bst proxy, just deploy the model and skill
     shelljs.exec("ask deploy -t skill --force");
     shelljs.exec("ask deploy -t model --force");
