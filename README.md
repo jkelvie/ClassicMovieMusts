@@ -30,7 +30,7 @@ Check out the [launch.json configuration](https://github.com/jkelvie/ClassicMovi
 
 BE SURE to [disable collectCoverage](https://github.com/jkelvie/ClassicMovieMusts/blob/master/testing.json#L6) in the testing.json when running debugging. It should be set to false or else breakpoints will not work in VS Code.
 
-Check out our full blog post on debugging in VS Code here.
+Check out our full blog post on [debugging in VS Code here](https://bespoken.io/blog/debugging-alexa-skills-with-vs-code-and-bespoken-part-2/).
 
 ## Testing
 Run the unit tests just by typing:
