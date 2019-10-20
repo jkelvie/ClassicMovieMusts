@@ -22,6 +22,7 @@ The code is divided into two major sections:
 
 Additional key supporting classes:
 * [lib/rss.js](https://github.com/jkelvie/ClassicMovieMusts/blob/master/lib/rss.js) - Loads in the podcast RSS feed
+* [lib/airtable.js](https://github.com/jkelvie/ClassicMovieMusts/blob/master/lib/airtable.js) - Loads trivia questions from Airtable
 
 ## Debugging
 The project is setup to be debugged in VSCode.
