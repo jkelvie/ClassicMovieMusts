@@ -30,7 +30,7 @@ configuration:
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].playBehavior: REPLACE_ALL
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
-  - response.directives[0].audioItem.stream.token: 85
+  - response.directives[0].audioItem.stream.token: "{latestEpisode}"
 - AMAZON.StartOverIntent:
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
@@ -41,7 +41,6 @@ configuration:
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].playBehavior: REPLACE_ALL
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
-  - response.directives[0].audioItem.stream.token: 85
 - AMAZON.CancelIntent:
   - response.directives[0].type: AudioPlayer.Stop
 

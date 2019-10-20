@@ -1,4 +1,5 @@
 {
+    "filter": "test/filter.js",
     "handler": "lib/index.js",
     "trace": false,
     "jest": {

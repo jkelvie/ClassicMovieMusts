@@ -37,6 +37,25 @@ configuration:
 - LaunchRequest
 - AMAZON.HelpIntent: You can say play trivia, play latest, or play with a movie name - such as play rear window
 
+# Test all the scenarios in which a user responds to a question and Alexa think it is a custom intent (such as PlayThis)
+---
+- test: When PlayIntent is fired for an answer, handle correctly
+- LaunchRequest: Welcome to Classic Movie Musts
+- QuizIntent
+- PlayIntent: That is not correct
+
+---
+- test: When PlayThisIntent is fired for an answer, handle correctly
+- LaunchRequest: Welcome to Classic Movie Musts
+- QuizIntent
+- PlayThisIntent: That is not correct
+
+---
+- test: When PlayLatestIntent is fired for an answer, handle correctly
+- LaunchRequest: Welcome to Classic Movie Musts
+- QuizIntent
+- PlayLatestIntent: That is not correct
+
 ---
 - test: When QuizIntent is fired for an answer, it is handled correctly
 - LaunchRequest
