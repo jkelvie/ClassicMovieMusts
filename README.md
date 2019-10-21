@@ -5,12 +5,13 @@
 [![ClassicMovieMusts](https://mcdn.podbean.com/mf/web/hqtbi7/Max_Baril_-_Classic_Movie_Musts_Twitter.jpg)](https://classicmoviemusts.com)
 
 ## Overview
-Listen to the latest episodes from Classic Movie Musts, and play a fun trivia game inspired by the podcast!
+Listen to the latest episodes from Classic Movie Musts, and play a fun trivia game inspired by the podcast! Go here to enable the skill and try it out - [Classic Movie Musts skill on Amazon.com](https://www.amazon.com/Bespoken-Classic-Movie-Musts/dp/B07ZB7RV7X).
 
 This is also a showcase for best practices for Alexa skill development and using Bespoken for testing skills.
 
 This project demonstrates:
 * Automated unit-testing
+* Local development with REAL payloads using [`bst proxy`](https://read.bespoken.io/cli/commands/#proxy)
 * Local debugging with VS Code
 * Continuous Integration with Travis CI
 * Automated deployment (WIP)
@@ -48,7 +49,7 @@ npm test Quiz
 The project is configured to use Travis for continuous integration.
 
 You can check out the Travis Configuration here:
-(https://github.com/jkelvie/ClassicMovieMusts/blob/master/.travis.yml)
+[.travis.yml](https://github.com/jkelvie/ClassicMovieMusts/blob/master/.travis.yml)
 
 ## Deployment
 Deployment can be run locally using the task for dev:
