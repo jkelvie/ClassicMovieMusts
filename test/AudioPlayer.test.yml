@@ -23,6 +23,8 @@ configuration:
 - AMAZON.ResumeIntent:
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 30
+- AudioPlayer.PlaybackFinished:
+  - response.outputSpeech: undefined
 
 ---
 - test: play the latest podcast

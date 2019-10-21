@@ -89,6 +89,11 @@ configuration:
 ---
 - test: Random answer intent
 - AnswerIntent: Sorry I did not understand
+
+---
+- test: Session ended request returns no response
+- SessionEndedRequest:
+  - response.outputSpeech: undefined
   
 ---
 - test: Force error
