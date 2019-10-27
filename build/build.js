@@ -1,13 +1,16 @@
 const _ = require("lodash");
 const fs = require("fs");
+const os = require("os");
 const shelljs = require("shelljs");
+
+const usingCI = _.get(process, "env.CI", "false") === "true";
 
 const environment = _.nth(process.argv, 2);
 if (!environment || !_.includes(["dev", "prod"], environment)) {
     console.error("Must provide the environment name as the first argument - dev or prod");
     process.exit(1);
 }
-console.log(`Using environment: ${environment}`);
+console.log(`Using environment: ${environment} Using CI: ${usingCI}`);
 
 const target = _.nth(process.argv, 3);
 if (target) {
@@ -63,6 +66,23 @@ shelljs.cp("-r", "../hooks", "target/"); // If we don't copy the hooks, they wil
 // Install the dependencies
 shelljs.pushd("target");
 shelljs.exec("npm install --only=prod");
+
+// If using CI, the create an AWS file and the global ASK CLI config
+if (usingCI) {
+    shelljs.mkdir("~/.ask");
+    shelljs.cp("-f", "../global_cli_config", "~/.ask/cli_config");
+
+    shelljs.sed("-i", "ASK_ACCESS_TOKEN", process.env.ASK_ACCESS_TOKEN, "~/.ask/cli_config");
+    shelljs.sed("-i", "ASK_REFRESH_TOKEN", process.env.ASK_REFRESH_TOKEN, "~/.ask/cli_config");
+
+    const awsFileContents = "[default]\n" + 
+        `aws_access_key_id=${process.env.AWS_ACCESS_KEY_ID}\n` +
+        `aws_secret_access_key=${process.env.AWS_SECRET_ACCESS_KEY}`;
+    
+    shelljs.mkdir("~/.aws");
+    fs.writeFileSync(`${os.homedir()}/.aws/credentials`, awsFileContents);
+    shelljs.touch("~/.aws/config");
+}
 
 // Run the deployment
 if (target) {

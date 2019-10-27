@@ -6,10 +6,7 @@ configuration:
 ---
 - test: play a podcast by name
 - PlayIntent MovieName="Rear Window":
-  - request.request.intent.slots.MovieName.resolutions.resolutionsPerAuthority[0].authority: "Authority"
-  - request.request.intent.slots.MovieName.resolutions.resolutionsPerAuthority[0].status.code: "ER_SUCCESS_MATCH"
-  - request.request.intent.slots.MovieName.resolutions.resolutionsPerAuthority[0].values[0].value.name: "Rear Window"
-  - request.request.intent.slots.MovieName.resolutions.resolutionsPerAuthority[0].values[0].value.id: "RearWindow"
+  - request.request.intent.slots.MovieName: { value: "Rear Window" }
   - response.directives[0].type: AudioPlayer.Play
   - response.directives[0].playBehavior: REPLACE_ALL
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 0
@@ -25,6 +22,12 @@ configuration:
   - response.directives[0].audioItem.stream.offsetInMilliseconds: 30
 - AudioPlayer.PlaybackFinished:
   - response.outputSpeech: undefined
+
+---
+- test: play a podcast by name for a movie that does not exist
+- PlayIntent MovieName="Ghostbusters":
+  - request.request.intent.slots.MovieName: { value: "Ghostbusters" }
+  - prompt: "Could not find a podcast for the movie: Ghostbusters"
 
 ---
 - test: play the latest podcast

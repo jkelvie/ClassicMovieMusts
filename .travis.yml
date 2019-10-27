@@ -6,17 +6,23 @@ cache:
   - node_modules
 install:
   - npm install
+  - npm install ask-cli -g
 jobs:
   include:
     - stage: test
       script:
       - npm test
       - npm run coverage
+    - stage: deploy-dev
+      script:
+      - npm deploy.dev
     - stage: deploy-prod
       script:
       - npm deploy.prod
 stages:
   - test
+  - name: deploy-dev
+    if: branch =~ /dev-.*/
   - name: deploy-prod
     if: branch =~ /prod-.*/
-
+  
