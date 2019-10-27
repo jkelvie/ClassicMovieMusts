@@ -37,6 +37,3 @@
 ## Hygiene
 - [X] Don't replace URL/lambda configuration when updating dev
 - [X] Add alerts for exceptions in cloudwatch
-
-
-
