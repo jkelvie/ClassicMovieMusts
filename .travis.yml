@@ -15,10 +15,10 @@ jobs:
       - npm run coverage
     - stage: deploy-dev
       script:
-      - npm deploy.dev
+      - npm run deploy.dev
     - stage: deploy-prod
       script:
-      - npm deploy.prod
+      - npm run deploy.prod
 stages:
   - test
   - name: deploy-dev
