@@ -28,7 +28,7 @@ Additional key supporting classes:
 ## Debugging
 The project is setup to be debugged in VSCode.
 
-Check out the [launch.json configuration](https://github.com/jkelvie/ClassicMovieMusts/blob/master/.vscode/launch.json)
+Check out the [launch.json configuration](https://github.com/jkelvie/ClassicMovieMusts/blob/master/.vscode/launch.json). Modify the paths to fit where the `bespoken-tools` node module is installed (more info on this in the full blog post below).
 
 BE SURE to [disable collectCoverage](https://github.com/jkelvie/ClassicMovieMusts/blob/master/testing.json#L6) in the testing.json when running debugging. It should be set to false or else breakpoints will not work in VS Code.
 
@@ -46,6 +46,7 @@ npm test Quiz
 ```
 
 ## Deployment
+### Quick Start
 Deployment can be run locally using the task for dev:
 ```
 npm deploy.dev
@@ -55,6 +56,10 @@ For prod:
 ```
 npm deploy.prod
 ```
+
+For running locally, just make sure you have setup the ASK CLI and AWS CLI first.
+
+### More Info On Deployment
 
 The deployment script is controlled by the [build.js file](https://github.com/jkelvie/ClassicMovieMusts/blob/master/build/build.js). This script uses the ASK CLI and some scripting and file manipulation to deploy our code.
 
@@ -78,7 +83,7 @@ Most of the work being done is just replacing certain values that vary between t
 | ASK_REFRESH_TOKEN | The ASK CLI refresh token - can be found under ~/.ask/cli_config (CI ONLY)
 | AWS_ACCESS_KEY_ID | The AWS access key ID (CI ONLY)
 | AWS_SECRET_ACCESS_KEY | The AWS secret access key (CI ONLY)
-| CI | Set to true if this script is being run in a CI environment
+| CI | Set to true if this script is being run in a CI environment (CI ONLY)
 | FUNCTION_NAME | The name of the Lambda function to deploy to (also can be an HTTPS url - see below for more info) |
 | INVOCATION_NAME | The invocation name for the skill |
 | LAMBDA_ARN | The full Lambda ARN |
@@ -103,5 +108,7 @@ You can check out the Travis Configuration in
 The CI script will automatically deploy to prod and dev when a tag is added to Github that starts with `dev-*` or `prod-*`.
 
 For example, the first release to dev is tagged `dev-1`. That will trigger our CI process to deploy to the dev environment. You can see an [example deployment via Travis here](https://travis-ci.org/jkelvie/ClassicMovieMusts/builds/603416737).
+
+To setup your own CI process, you can leverage the above script. Just make sure to set the environment variables in the CI tool that are marked as CI ONLY. With regard to ASK_CLI_TOKEN and ASK_REFRESH_TOKEN, they will USUALLY need to be put in quotes.
 
 
