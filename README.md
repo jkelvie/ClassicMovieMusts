@@ -2,6 +2,8 @@
 [![codecov](https://codecov.io/gh/jkelvie/ClassicMovieMusts/branch/master/graph/badge.svg)](https://codecov.io/gh/jkelvie/ClassicMovieMusts)
 
 # Classic Movie Musts
+**Trivia, podcasts, plus Alexa skill development showcase from Bespoken!**
+
 [![ClassicMovieMusts](https://mcdn.podbean.com/mf/web/hqtbi7/Max_Baril_-_Classic_Movie_Musts_Twitter.jpg)](https://classicmoviemusts.com)
 
 ## Overview
