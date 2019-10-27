@@ -14,7 +14,7 @@ This project demonstrates:
 * Local development with REAL payloads using [`bst proxy`](https://read.bespoken.io/cli/commands/#proxy)
 * Local debugging with VS Code
 * Continuous Integration with Travis CI
-* Automated deployment (WIP)
+* Automated deployment
 
 ## Code
 The code is divided into two major sections:
@@ -45,12 +45,6 @@ You can run a subset of tests with:
 npm test Quiz
 ```
 
-## Continuous Integration
-The project is configured to use Travis for continuous integration.
-
-You can check out the Travis Configuration here:
-[.travis.yml](https://github.com/jkelvie/ClassicMovieMusts/blob/master/.travis.yml)
-
 ## Deployment
 Deployment can be run locally using the task for dev:
 ```
@@ -62,4 +56,52 @@ For prod:
 npm deploy.prod
 ```
 
-COMING SOON - integration of deployment into Travis.
+The deployment script is controlled by the [build.js file](https://github.com/jkelvie/ClassicMovieMusts/blob/master/build/build.js). This script uses the ASK CLI and some scripting and file manipulation to deploy our code.
+
+The key considerations for our deployment:
+* We support multiple skill stages (dev and production)
+* We support running deployments from a continuous integration tool
+
+The build script executes the following steps:
+* Creates a clean area for creating the deployment artifacts (build/target)
+* Sets up the project-level ASK config file - which controls the endpoint/Lambda configuration
+* Configures the interaction model
+* Configures the skill.json metadata
+* Sets up the global ASK configuration (CI environments only)
+* Sets up AWS configuration (CI environments only)
+
+Most of the work being done is just replacing certain values that vary between the dev and prod environments. These values are set as environment variables. They are:
+
+| Variable | Description |
+| --- | --- |
+| ASK_ACCESS_TOKEN | The ASK CLI access token - can be found under ~/.ask/cli_config (CI ONLY)
+| ASK_REFRESH_TOKEN | The ASK CLI refresh token - can be found under ~/.ask/cli_config (CI ONLY)
+| AWS_ACCESS_KEY_ID | The AWS access key ID (CI ONLY)
+| AWS_SECRET_ACCESS_KEY | The AWS secret access key (CI ONLY)
+| CI | Set to true if this script is being run in a CI environment
+| FUNCTION_NAME | The name of the Lambda function to deploy to (also can be an HTTPS url - see below for more info) |
+| INVOCATION_NAME | The invocation name for the skill |
+| LAMBDA_ARN | The full Lambda ARN |
+| SKILL_ID | The Skill ID |
+
+The variables that are CI ONLY are marked that way because they do NOT need to be set if running locally on your laptop. When running locally we assume:
+* You have installed and configured the AWS CLI
+* You have installed and configued the ASK CLI
+
+Additionally when running locally, you can set the FUNCTION_NAME to an HTTPS URL. This will configure the skill endpoint to use that instead of a Lambda. This is particularly useful for local testing with our [bst proxy](https://read.bespoken.io/cli/commands/#proxy). Using the bst proxy, the payloads from Alexa will be sent directly to your laptop.
+
+Most of these variables are taken automatically from one of two files, which vary by environment:
+* [dev.env](https://github.com/jkelvie/ClassicMovieMusts/blob/master/build/dev.env) - DEV environment configuration
+* [prod.env](https://github.com/jkelvie/ClassicMovieMusts/blob/master/build/prod.env) - PROD environment configuration
+
+## Continuous Integration
+The project is configured to use Travis for continuous integration.
+
+You can check out the Travis Configuration in
+[the .travis.yml file](https://github.com/jkelvie/ClassicMovieMusts/blob/master/.travis.yml).
+
+The CI script will automatically deploy to prod and dev when a tag is added to Github that starts with `dev-*` or `prod-*`.
+
+For example, the first release to dev is tagged `dev-1`. That will trigger our CI process to deploy to the dev environment. You can see an [example deployment via Travis here](https://travis-ci.org/jkelvie/ClassicMovieMusts/builds/603416737).
+
+
