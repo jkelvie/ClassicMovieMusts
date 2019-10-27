@@ -94,7 +94,19 @@ configuration:
 - test: Session ended request returns no response
 - SessionEndedRequest:
   - response.outputSpeech: undefined
+
+---
+- test: Random play this intent
+- PlayThisIntent: I did not understand - what podcast would you like to listen to?
+
+---
+- test: Resume intent when not playing is handled
+- AMAZON.ResumeIntent: No episode has been paused. Would you like to play one?
   
+---
+- test: Start over intent when not playing is handled
+- AMAZON.StartOverIntent: No episode is playing. Would you like to play one?
+
 ---
 - test: Force error
 - LaunchRequest:

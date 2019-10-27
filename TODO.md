@@ -1,7 +1,11 @@
 # Current ToDos
-- [ ] Upgrade node.js version
+- [X] Upgrade node.js version in code/tests
+- [ ] Upgrade Lambda node.js
 - [ ] Add fuzzy matching on movie name
 - [ ] Improve the README
+  - [ ] Include deployment steps overview
+  - [ ] include deployment environment variables descriptions
+- [ ] Make Vendor ID an environment variable
 
 # Up to 10/26
 ## For Test
