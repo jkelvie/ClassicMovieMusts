@@ -59,10 +59,9 @@ For prod:
 npm deploy.prod
 ```
 
-For running locally, just make sure you have setup the ASK CLI and AWS CLI first.
+For running locally, just make sure you have [setup the ASK CLI first](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html).
 
 ### More Info On Deployment
-
 The deployment script is controlled by the [build.js file](https://github.com/jkelvie/ClassicMovieMusts/blob/master/build/build.js). This script uses the ASK CLI and some scripting and file manipulation to deploy our code.
 
 The key considerations for our deployment:
@@ -83,6 +82,7 @@ Most of the work being done is just replacing certain values that vary between t
 | --- | --- |
 | ASK_ACCESS_TOKEN | The ASK CLI access token - can be found under ~/.ask/cli_config (CI ONLY)
 | ASK_REFRESH_TOKEN | The ASK CLI refresh token - can be found under ~/.ask/cli_config (CI ONLY)
+| ASK_VENDOR_ID | The vendor ID for the ASK CLI - can be found under ~/.ask/cli_config(CI ONLY)
 | AWS_ACCESS_KEY_ID | The AWS access key ID (CI ONLY)
 | AWS_SECRET_ACCESS_KEY | The AWS secret access key (CI ONLY)
 | CI | Set to true if this script is being run in a CI environment (CI ONLY)
@@ -91,9 +91,9 @@ Most of the work being done is just replacing certain values that vary between t
 | LAMBDA_ARN | The full Lambda ARN |
 | SKILL_ID | The Skill ID |
 
-The variables that are CI ONLY are marked that way because they do NOT need to be set if running locally on your laptop. When running locally we assume:
-* You have installed and configured the AWS CLI
-* You have installed and configued the ASK CLI
+The variables that are CI ONLY are marked that way because they do NOT need to be set if running locally on your laptop. This is because we assume you have setup and configured the ASK locally - [follow these directions](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html) if you have not already done this.
+
+Use caution with setting the CI flag - it will create ~/.aws/credentials and ~/.ask/cli_config files. In CI environments, this is typically fine because they are run on "pristine" VMs each time. But this may (undesirably) overwrite existing files if run on a dev laptop.
 
 Additionally when running locally, you can set the FUNCTION_NAME to an HTTPS URL. This will configure the skill endpoint to use that instead of a Lambda. This is particularly useful for local testing with our [bst proxy](https://read.bespoken.io/cli/commands/#proxy). Using the bst proxy, the payloads from Alexa will be sent directly to your laptop.
 
@@ -112,5 +112,8 @@ The CI script will automatically deploy to prod and dev when a tag is added to G
 For example, the first release to dev is tagged `dev-1`. That will trigger our CI process to deploy to the dev environment. You can see an [example deployment via Travis here](https://travis-ci.org/jkelvie/ClassicMovieMusts/builds/603416737).
 
 To setup your own CI process, you can leverage the above script. Just make sure to set the environment variables in the CI tool that are marked as CI ONLY. With regard to ASK_CLI_TOKEN and ASK_REFRESH_TOKEN, they will USUALLY need to be put in quotes.
+
+# Questions?
+[Talk to me on Gitter](https://gitter.im/bespoken/bst).
 
 

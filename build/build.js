@@ -22,6 +22,15 @@ if (target) {
 }
 
 require("dotenv").config({ path: `${environment}.env` });
+
+// Make sure all the appropriate environment variables are set
+checkVariables("FUNCTION_NAME", "INVOCATION_NAME", "LAMBDA_ARN", "SKILL_ID", "SKILL_NAME");
+
+if (usingCI) {
+    checkVariables("ASK_ACCESS_TOKEN", "ASK_REFRESH_TOKEN", "ASK_VENDOR_ID");
+}
+
+// Determine if we are using the local proxy - we assume if the FUNCTION_NAME is a URL, we are using the bst proxy
 const useLocalProxy = process.env.FUNCTION_NAME.startsWith("https");
 
 if (process.env.CLEAN) {
@@ -74,6 +83,7 @@ if (usingCI) {
 
     shelljs.sed("-i", "ASK_ACCESS_TOKEN", process.env.ASK_ACCESS_TOKEN, "~/.ask/cli_config");
     shelljs.sed("-i", "ASK_REFRESH_TOKEN", process.env.ASK_REFRESH_TOKEN, "~/.ask/cli_config");
+    shelljs.sed("-i", "ASK_VENDOR_ID", process.env.ASK_VENDOR_ID, "~/.ask/cli_config");
 
     const awsFileContents = "[default]\n" + 
         `aws_access_key_id=${process.env.AWS_ACCESS_KEY_ID}\n` +
@@ -95,3 +105,12 @@ if (target) {
     shelljs.exec("ask deploy --force");
 }
 
+function checkVariables(...variables) {
+    for (const variable of variables) {
+        if (process.env[variable] === undefined) {
+            console.error(`ERROR Required environment variable not defined: ${variable}`);
+            console.error("EXITING");
+            process.exit(1);
+        } 
+    }
+}
