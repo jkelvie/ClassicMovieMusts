@@ -51,12 +51,12 @@ npm test Quiz
 ### Quick Start
 Deployment can be run locally using the task for dev:
 ```
-npm deploy.dev
+npm deploy-dev
 ```
 
 For prod:
 ```
-npm deploy.prod
+npm deploy-prod
 ```
 
 For running locally, just make sure you have [setup the ASK CLI first](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html).

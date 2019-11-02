@@ -95,14 +95,15 @@ if (usingCI) {
 }
 
 // Run the deployment
+// Need to set the profile explicitly to default - otherwise ASK CLI will create a new one when the ASK env variables are present
 if (target) {
-    shelljs.exec(`ask deploy -t ${target} --force`);
+    shelljs.exec(`ask deploy -t ${target} -p default --force`);
 } else if (useLocalProxy) {
     // If we are using the bst proxy, just deploy the model and skill
-    shelljs.exec("ask deploy -t skill --force");
-    shelljs.exec("ask deploy -t model --force");
+    shelljs.exec("ask deploy -t skill -p default --force");
+    shelljs.exec("ask deploy -t model -p default --force");
 } else {
-    shelljs.exec("ask deploy --force");
+    shelljs.exec("ask deploy -p default --force");
 }
 
 function checkVariables(...variables) {

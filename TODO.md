@@ -2,6 +2,14 @@
 - [ ] Add fuzzy matching on movie name
 - [ ] Change acknowledgement on correct answers
 - [ ] Force feed reload
+- [ ] Add episode number to PlayIntent response
+- [ ] Create end-to-end tests
+  - [ ] Test core scenarios
+  - [ ] Tie into deployments
+  - [ ] Document :-)
+- [ ] For ASK CLI, now can use environment variables https://developer.amazon.com/docs/smapi/manage-credentials-with-ask-cli.html#ask-cli-env-vars
+  - [ ] No need to create global CLI config file
+  - [ ] Can we bypass the AWS global configuration as well? https://developer.amazon.com/docs/smapi/manage-credentials-with-ask-cli.html#ask-cli-env-vars
 
 # Complete 11/2/19
 - [X] Upgrade Lambda node.js

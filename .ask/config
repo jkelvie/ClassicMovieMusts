@@ -24,7 +24,7 @@
             "functionName": "FUNCTION_NAME",
             "handler": "lib/index.handler",
             "revisionId": "27d8106b-d350-45e5-8641-16f6b353eb59",
-            "runtime": "nodejs8.10"
+            "runtime": "nodejs10.x"
           }
         ]
       }
