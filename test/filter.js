@@ -3,6 +3,11 @@ const RSS = require("../lib/rss");
 let feed;
 
 module.exports = {
+    onTestSuiteStart: async () => {
+        // Initialize stuff
+        await require("../lib/startup").initialize();
+    },
+
     resolve: async (variable) => {
         // interaction allows seeing any information from the interaction
         // and the parent test and testSuite you need

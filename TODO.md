@@ -1,4 +1,9 @@
 # Current ToDos
+- [X] Deal with lambda timeouts
+  - [X] Expanded timeout value
+  - [ ] Increase memory?
+  - [X] Load questions and podcasts async
+  - [X] Instrument question and podcast loading
 - [ ] Add fuzzy matching on movie name
 - [ ] Change acknowledgement on correct answers
 - [ ] Force feed reload
@@ -10,6 +15,7 @@
 - [ ] For ASK CLI, now can use environment variables https://developer.amazon.com/docs/smapi/manage-credentials-with-ask-cli.html#ask-cli-env-vars
   - [ ] No need to create global CLI config file
   - [ ] Can we bypass the AWS global configuration as well? https://developer.amazon.com/docs/smapi/manage-credentials-with-ask-cli.html#ask-cli-env-vars
+- [ ] Remove movie name directive code
 
 # Complete 11/2/19
 - [X] Upgrade Lambda node.js
