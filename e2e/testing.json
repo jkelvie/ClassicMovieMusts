@@ -1,0 +1,14 @@
+{
+    "findReplace": {
+      "INVOCATION_NAME": "classic movie musts"
+    },
+    "homophones": {
+      "classic movie musts": ["Classic Movie must"]
+    },
+    "trace": true,
+    "jest": {
+      "collectCoverage": false,
+      "silent": false
+    },
+    "virtualDeviceToken": "alexa-41ec3e3a-e784-40e7-a95a-786c8fa3f8ba"
+  }

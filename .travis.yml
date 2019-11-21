@@ -19,6 +19,7 @@ jobs:
     - stage: deploy-prod
       script:
       - npm run deploy-prod
+      - npm run e2e-prod
 stages:
   - test
   - name: deploy-dev

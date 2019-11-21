@@ -1,0 +1,13 @@
+---
+configuration:
+  locale: en-US
+  type: e2e
+
+---
+- test: Open the skill and play trivia
+- open INVOCATION_NAME: welcome to classic movie musts
+- play trivia: "*"
+- wrong answer: "*"
+- play this episode:
+  - streamURL: https
+  - $..payload.content.art.sources[0].url: https://pbcdn1.podbean.com/imglogo/

@@ -1,10 +1,12 @@
 {
     "filter": "test/filter.js",
+    "findReplace": {
+      "INVOCATION_NAME": "classic movie musts"
+    },
     "handler": "lib/index.js",
-    "trace": false,
     "jest": {
       "collectCoverage": true,
-      "collectCoverageFrom": ["lib/*.js"],
+      "collectCoverageFrom": ["../lib/*.js"],
       "coveragePathIgnorePatterns": [
         "<rootDir>/data"
       ],
