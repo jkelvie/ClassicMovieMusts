@@ -16,11 +16,9 @@ jobs:
     - stage: deploy-dev
       script:
       - npm run deploy-dev
-      - cd e2e && env "findReplace.INVOCATION_NAME=must classic movies" bst test
     - stage: deploy-prod
       script:
       - npm run deploy-prod
-      - npm run test-e2e
 stages:
   - test
   - name: deploy-dev

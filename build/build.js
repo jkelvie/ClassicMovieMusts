@@ -14,7 +14,7 @@ console.log(`Using environment: ${environment} Using CI: ${usingCI}`);
 
 const target = _.nth(process.argv, 3);
 if (target) {
-    if (!_.includes(["lambda", "model", "skill"], target)) {
+    if (!_.includes(["lambda", "model", "noop", "skill"], target)) {
         console.error("Target must be one of: lambda, model, skill");
         process.exit(1);
     }
@@ -97,7 +97,11 @@ if (usingCI) {
 // Run the deployment
 // Need to set the profile explicitly to default - otherwise ASK CLI will create a new one when the ASK env variables are present
 if (target) {
-    shelljs.exec(`ask deploy -t ${target} -p default --force`);
+    if (target === "noop") {
+        // no-op for testing this script 
+    } else {
+        shelljs.exec(`ask deploy -t ${target} -p default --force`);
+    }
 } else if (useLocalProxy) {
     // If we are using the bst proxy, just deploy the model and skill
     shelljs.exec("ask deploy -t skill -p default --force");
@@ -105,6 +109,12 @@ if (target) {
 } else {
     shelljs.exec("ask deploy -p default --force");
 }
+
+// Run a smoke test when the update is done
+
+// Set the invocation name based on the environment
+process.env["findReplace.INVOCATION_NAME"] = process.env.INVOCATION_NAME;
+shelljs.exec("cd .. && npm run test-e2e");
 
 function checkVariables(...variables) {
     for (const variable of variables) {

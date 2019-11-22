@@ -75,6 +75,8 @@ The build script executes the following steps:
 * Configures the skill.json metadata
 * Sets up the global ASK configuration (CI environments only)
 * Sets up AWS configuration (CI environments only)
+* Deploys the new version of the skill
+* Runs an end-to-end smoke test on the newly deployed version
 
 Most of the work being done is just replacing certain values that vary between the dev and prod environments. These values are set as environment variables. They are:
 
