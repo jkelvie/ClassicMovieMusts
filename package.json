@@ -7,11 +7,11 @@
     "coverage": "codecov",
     "deploy-dev": "cd build && node build.js dev",
     "deploy-prod": "cd build && node build.js prod",
-    "e2e-prod": "cd e2e && bst test",
     "jest": "jest",
     "lint": "eslint lib/*.js",
     "lint.fix": "eslint --fix lib/*.js",
-    "test": "bst test"
+    "test": "bst test",
+    "test-e2e": "cd e2e && bst test"
   },
   "author": "",
   "license": "ISC",
