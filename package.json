@@ -10,8 +10,8 @@
     "jest": "jest",
     "lint": "eslint lib/*.js",
     "lint.fix": "eslint --fix lib/*.js",
-    "test": "bst test",
-    "test-e2e": "cd e2e && bst test"
+    "test": "bst test --config test/testing.json test/*.yml",
+    "test-e2e": "bst test --config e2e/testing.json e2e/*.yml"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "babel-jest": "^22.4.3",
-    "bespoken-tools": "^2.4.10",
+    "bespoken-tools": "beta",
     "codecov": "^3.5.0",
     "eslint": "^5.16.0",
     "eslint-plugin-jest": "^22.5.1",

@@ -6,11 +6,10 @@
     "handler": "lib/index.js",
     "jest": {
       "collectCoverage": true,
-      "collectCoverageFrom": ["../lib/*.js"],
+      "collectCoverageFrom": ["lib/*.js"],
       "coveragePathIgnorePatterns": [
         "<rootDir>/data"
       ],
-      "silent": false,
-      "testPathIgnorePatterns": ["e2e"]
+      "silent": false
     }
   }
